@@ -1,0 +1,387 @@
+<book title="World of Dragons">
+  <chapter>
+	<page>
+		<title>Language</title>
+		<link ref="EN">English</link>
+		<link ref="GE">German</link>
+	</page>
+  </chapter>
+  <chapter id="EN">
+    <page>
+		<title>Contents</title>
+		<link ref="EN_STORY">Previously</link>
+		<link ref="EN_START">Getting Started</link>
+		<link ref="EN_DRAGONS">Ice and Fire</link>
+		<link ref="EN_CHUNKS">Chunk Claiming</link>
+		<link ref="EN_TEAMS">Team Management</link>
+		<link ref="EN_BORED">Quests</link>
+	</page>
+  </chapter>
+  <chapter id="EN_STORY">
+  	<page id="1"><title>Where you Were</title><p>Previously, you were sitting back in your easy chair, your favorite book of "Fantasy and Dragons" on your lap, you were reflecting on how hard your day has been. How it all started when you had woken up!</p></page>
+	<page><p>You had hit the alarm clock at least 5 times before throwing it into the closet. Did it break in there? You had wondered why you working a schedule shift when for that last few years you were allowed to come and go freely. Having</p></page>
+	<page><p>been freed of Highschool some 10 years since, being one of the youngest postgrads just 5 years ago. You knew you weren't all that bright, but still you had a firm grip when it came to physics and engineering. That allowed you to</p>
+	</page>
+	<page><p>get a great job that worked you long hard hours.</p><p>You never were into the social seen and as such never met the right person with which to fall in love and to whom you could have married. All that you have are these fantasy</p>
+	</page>
+	<page><p>books and a computer on which you used to play Minecraft. You still do, but something weird happened the day before. A star appeared to dislodge from the canopy of the night sky and somehow it entered your window and bonded with</p>
+	</page>
+	<page><p>your computer causing it to sparkle and twinkle. A large puff or plume of smoke emanated from the impact or so you thought. You feel so blessed to have seen this amazing thing! However, the screen is now black, although the lights</p>
+	</page>
+	<page><p>are all on! You unplugged the machine and retired to your favorite chair and began read that book, the one you thought was in your lap. You had been reading that book all week long, and as such, been day dreaming about your adventures</p>
+	</page>
+	<page><p>in it. You were late to work for the first time in 3 years, your boss yelled at you, and that made the whole day suck!</p><p>Frustrated and exhausted you still managed to complete another 100 pages before falling into a mysterious sleep,</p>
+	</page>
+	<page><p>only because someone you never ever knew by the name of "torhall", how did you even get his name you thought, whispered to you "Go to sleep, you've earned it!"</p>
+	</page>
+	<page><p>[You feel very comfortable and relaxed. Even more so than you have in a long time. Wow! You feel energized like never before. Is this was a good and proper rest feels like you think to yourself]</p>
+	</page>
+	<page><p>You have awoken in a strange new place. You recognize none of it. You are no longer in your home but in the wilderness. You hear a dragon roaring in the distance. Looking down at your hands you see they are now square little nubs!</p>
+	</page>
+	<page><p>So here you are, a Minecraft character in a World that has dragons!</p>
+	<link href="https://minecraft.curseforge.com/projects/world-of-dragons">Original Overview</link>
+	</page>
+  </chapter>
+<chapter id="EN_START">
+	<page id="1"><title>Getting Started</title><p>Go find a village and some quest givers. Use what they give you as you see fit. Then craft what you want to achieve the goal of a dragon rider. Yes, you will have to tame a dragon and put a saddle on it!</p></page>
+	<link href="https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light">Dragon Information</link>
+</chapter>
+<chapter id="EN_DRAGONS">
+	<page>
+		<title>Ice and Fire: Notes</title>
+		<p bold="true">Dragon skeletons</p>
+			<p indent="4">these can be found in desert biomes and can be used to collect a few bones</p>
+		<p bold="true">Dragon roosts and caverns</p>
+			<p indent="4">where you can fight dragons and find grand treasures</p>
+	</page>
+	<page>
+		<p bold="true">Dragon eggs</p>
+			<p indent="4">which can be found in dragon caves</p>
+		<p bold="true">Dragon taming and riding</p>
+			<p indent="4">mount up your tamed dragons and even armour them</p>
+	</page>
+	<page>
+		<p bold="true">Dragon equipment</p>
+			<p indent="4">craft tools and weapons from dragon bones and armours from dragon scales</p>
+		<p bold="true">Bestiary</p>
+			<p indent="4">for collecting and learning information with regards to dragons</p>
+	</page>
+	<page>
+		<title>External Resources</title>
+		<link href="https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light">Original Overview</link>
+		<link href="http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2498069-ice-and-fire-dragons-in-a-whole-new-light-build-1">Ice and Fire Forum</link>
+	</page>
+</chapter>
+<chapter id="EN_CHUNKS">
+	<page><title>Chunk Claiming</title>
+	<p>In order to claim chunks you must be in a team. You don't need anyone in your team. You can team with yourself. You do this by hitting the 'team icon' in the upper left when you are looking at your inventory.</p>
+	<image src="wod:images/teams" tw="16" th="16" />
+	</page>
+	<page>
+	<p>This is the team icon.</p>
+	<p>On the first time when you hit it, you'll come to another screen that has a plus icon on it and if you are on a multiplayer server, other teams that you can join.</p>
+	<image src="wod:images/add" tw="16" th="16" />
+	</page>
+	<page>
+	<p>Hit that plus icon to create your team or another team to join it.</p>
+	<p>If you hit the plus icon, another screen will come up that will have your name in it, you can change that name to anything you want as it is the team name.</p>
+	</page>
+	<page>
+	<p>And choose a color to represent your team, and hit "accept".</p>
+	<p>You'll return back to your environment with no success or fail message.</p>
+	</page>
+	<page>
+	<p>Go back to your inventory 'e' and you'll now see a batch of icons in the upper left.</p>
+	<p>Find the the one that looks like a map.</p>
+	<image src="wod:images/chunks" tw="16" th="16" />
+	</page>
+	<page>
+	<p>And click on it. Now you will see a map of your current location. Using your mouse to draw on it. This drawing represents the chunks you are claiming.</p>
+	<p>To get more chunks for claiming, add more people to your team.</p>
+	</page>
+	<page>
+	<p>If you click the team icon again, you'll have the option to add other players to your team. A list of them will appear on the left. Click the person, then the plus icon in the far right. in the central panel you can adjust their permissions.</p>
+	</page>
+</chapter>
+<chapter id="EN_TEAMS">
+	<page>
+		<title>Team Management</title>
+		<link ref="EN_CREATE">Create A Team</link>
+		<link ref="EN_ADD">Add someone exclusively to your team</link>
+		<link ref="EN_ALLY">Give someone access to your team</link>
+		<link ref="EN_ENEMY">Prevent someone from joining your team</link>
+	</page>
+</chapter>
+<chapter id="EN_CREATE">
+	<page>
+		<title>Create A Team</title>
+		<image src="wod:images/teams" tw="16" th="16" />
+		<p></p><p></p>
+		<p>Open your inventory and click the team icon in the upper left. If you are not in a team you will see a dialogue that will allow you to name your team and choose its color.</p>
+		<p>Congratulations on making a team!</p>
+	</page>
+</chapter>
+<chapter id="EN_ADD">
+	<page>
+		<title>Add to Team</title>
+		<image src="wod:images/add" tw="16" th="16" />
+		<p></p><p></p>
+		<p>Open the team icon again, you will see a plus icon in the upper right. Click it. Everyone who has played on the server will appear under your name in the left side panel.</p>
+		<p>Click the name of the player you want in your team and then select invite.</p>
+	</page>
+	<page>
+		<p>Congratulations on adding a player to your team.</p>
+	</page>
+</chapter>
+<chapter id="EN_ALLY">
+	<page>
+		<title>Add an Ally</title>
+		<image src="wod:images/add" tw="16" th="16" />
+		<p></p><p></p>
+		<p>Open the team icon again, you will see a plus icon in the upper right. Click it. Everyone who has played on the server will appear under your name in the left side panel.</p>
+		<p>Click the playername of which access is to be allowed and then select ally.</p>
+	</page>
+	<page>
+		<p>Congratulations on allying a player to your team.</p>
+	</page>
+</chapter>
+<chapter id="EN_ENEMY">
+	<page>
+		<title>Declare the Enemy</title>
+		<image src="wod:images/add" tw="16" th="16" />
+		<p></p><p></p>
+		<p>Open the team icon again, you will see a plus icon in the upper right. Click it. Everyone who has played on the server will appear under your name in the left side panel.</p>
+		<p>Click the name of your enemy and then select enemy.</p>
+	</page>
+	<page>
+		<p>Congratulations on giving someone the finger!</p>
+	</page>
+</chapter>
+<chapter id="EN_BORED">
+	<page id="1"><title>Questing</title>
+	<p>There are no actual quests that will guide you in this world in regards to the dragons. However, there are villages lords and shopkeepers that will provide you with with quests of their own whereby you can receive rewards of varying quality.</p>
+	</page>
+	<page>
+	<p>These quests will help to alleviate your boredom should you find that there is not enough to do while you attempt to conquer and ride a dragon. Yes that is your ultimate goal. And if you are playing in a world where other players are abound</p>
+	</page>
+	<page>
+	<p>then you might even say your other goal is to fight these other players to be the Lord High Dragonborn!</p>
+	</page>
+</chapter>
+  <chapter id="GE">
+    <page>
+		<title>Contents</title>
+		<link ref="GESCHICHTE">Vorher</link>
+		<link ref="ANFANG">Anfangen</link>
+		<link ref="DRACHEN">Eis und Feuer</link>
+		<link ref="GE_CHUNKS">Chunk Beanspruchung</link>
+		<link ref="GE_TEAMS">Teamleitung</link>
+		<link ref="GELANGWEILT">Quests</link>
+	</page>
+  </chapter>
+  <chapter id="GESCHICHTE">
+  	<page id="1"><title>Wo Du warst</title><p>Zuvor haben Sie sich in Ihrem Sessel, Ihrem Lieblingsbuch von "Fantasy and Dragons" auf dem Schoß, zurückgedreht, und Sie haben darüber </p>
+	</page>
+	<page>
+	<p>nachgedacht, wie hart Ihr Tag war. Wie alles begann, als du aufgewacht warst!</p></page>
+	<page><p>Du hast den Wecker mindestens 5 Mal getroffen, bevor du ihn in den Schrank geworfen hast. Ist es da drinnen gebrochen? Du hattest dich gefragt, warum du eine </p>
+	</page>
+	<page>
+	<p>Zeitplanverschiebung arbeitest, als du in den letzten paar Jahren frei kommen und gehen durftest. Ich</p></page>
+	<page><p>wurde vor rund 10 Jahren von der Highschool befreit und war vor 5 Jahren einer der jüngsten Postgraduierten. Du wusstest, dass du nicht so hell warst, aber trotzdem warst du </p>
+	</page>
+	<page>
+	<p>fest im Griff, wenn es um Physik und Technik ging. Das erlaubte es</p>
+	</page>
+	<page><p>Sie haben einen großartigen Job gemacht, der Ihnen lange anstrengende Arbeit geleistet hat. </p> <p> Sie waren nie in der sozialen Situation und haben nie die richtige Person </p>
+	</page>
+	<page>
+	<p>kennengelernt, mit der Sie sich verlieben und an wen Sie geheiratet haben könnten. Alles, was Sie haben, sind diese Fantasie</p>
+	</page>
+	<page><p>Bücher und einen Computer, auf dem du Minecraft gespielt hast. Du tust es immer noch, aber etwas Seltsames ist am Tag zuvor passiert. Ein Stern schien sich vom Himmel des </p>
+	</page>
+	<page>
+	<p>Nachthimmels zu lösen und irgendwie trat er in dein Fenster ein</p>
+	</page>
+	<page><p>Ihr Computer verursacht, dass es funkelt und funkelt. Ein großer Rauch oder eine Rauchwolke ragte aus dem Aufprall heraus oder so, dachte man. Du fühlst dich so gesegnet, </p>
+	</page>
+	<page>
+	<p>dieses erstaunliche Ding gesehen zu haben! Der Bildschirm ist jedoch schwarz, obwohl die Lichter</p>
+	</page>
+	<page><p>sind alle an! Sie trennten die Maschine und gingen zu Ihrem Lieblingsstuhl zurück und fingen an, dieses Buch zu lesen, das Sie auf Ihrem Schoß hatten. Du hast das Buch die </p>
+	</page>
+	<page>
+	<p>ganze Woche gelesen und als solches träumst du von deinen Abenteuern</p>
+	</page>
+	<page><p>drin. Du warst zum ersten Mal seit 3 Jahren zu spät, dein Chef schrie dich an, und das machte den ganzen Tag zu scheißen! </p>
+	<p> Frustriert und erschöpft hast du es </p>
+	</page>
+	<page>
+	<p>geschafft, noch einmal 100 Seiten zu füllen, bevor du in eine mysteriöse Schlaf,</p>
+	</page>
+	<page><p>nur weil jemand, den du nie unter dem Namen "Torhall" gekannt hast, wie hast du seinen Namen bekommen, dachte du, flüsterte zu dir: "Schlafe, du hast es verdient!"</p>
+	</page>
+	<page><p>[Sie fühlen sich sehr wohl und entspannt. Noch mehr als Sie schon lange haben. Beeindruckend! Du fühlst dich wie nie zuvor erregt. Ist das eine gute und richtige Pause, fühlt sich an, als ob Sie sich selbst denken würden]</p>
+	</page>
+	<page><p>Du bist an einem fremden Ort aufgewacht. Du erkennst nichts davon. Du bist nicht mehr in deinem Zuhause, sondern in der Wildnis. Du hörst einen Drachen in der Ferne brüllen. </p>
+	</page>
+	<page>
+	<p>Wenn du auf deine Hände blickst, siehst du, dass sie jetzt quadratische kleine Noppen sind!</p>
+	</page>
+	<page><p>So, hier bist du, ein Minecraft-Charakter in einer Welt, die Drachen hat!</p>
+	<link href="https://minecraft.curseforge.com/projects/world-of-dragons">Originalübersicht</link>
+	</page>
+  </chapter>
+<chapter id="ANFANG">
+	<page id="1"><title>Anfangen</title><p>Finde ein Dorf und einige Questgeber. Benutze, was sie dir geben, wie du es für richtig hältst. Fertigen Sie an, was Sie wollen, um das Ziel eines Drachenreiters zu erreichen.</p>
+</page>
+<page>
+<p>	Ja, du musst einen Drachen zähmen und einen Sattel darauf legen!</p></page>
+	<link href="https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light">Dragon Informationen</link>
+</chapter>
+<chapter id="DRACHEN">
+	<page>
+		<title>Eis und Feuer: Notizen</title>
+		<p bold="true">Drachenskelette</p>
+			<p indent="4">Diese können in Wüsten-Biomen gefunden werden und können verwendet werden, um ein paar Knochen zu sammeln</p>
+		<p bold="true">Drachenquartiere und Kavernen</p>
+			<p indent="4">wo Sie Drachen kämpfen und große Schätze finden können</p>
+	</page>
+	<page>
+		<p bold="true">Dracheneier</p>
+			<p indent="4">welches in Drachenhöhlen zu finden ist</p>
+		<p bold="true">Drachen zähmen und reiten</p>
+			<p indent="4">Steigere deine gezähmten Drachen und panzere sie sogar</p>
+	</page>
+	<page>
+		<p bold="true">Drachenausrüstung</p>
+			<p indent="4">Bastelwerkzeuge und Waffen aus Drachenknochen und Rüstungen aus Drachenschuppen</p>
+		<p bold="true">Bestiarium</p>
+			<p indent="4">zum Sammeln und Lernen von Informationen in Bezug auf Drachen</p>
+	</page>
+	<page>
+		<title>Externe Ressourcen</title>
+		<link href="https://minecraft.curseforge.com/projects/ice-and-fire-dragons-in-a-whole-new-light">Originalübersicht</link>
+		<link href="http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2498069-ice-and-fire-dragons-in-a-whole-new-light-build-1">Eis und Feuer Forum</link>
+	</page>
+</chapter>
+<chapter id="GE_CHUNKS">
+	<page><title>Chunk Claiming</title>
+	<p>Um Chunks zu erhalten, müssen Sie in einem Team sein. Sie brauchen niemanden in Ihrem Team. Sie können mit sich selbst zusammenarbeiten. Sie können dies tun, indem Sie oben links auf das Team-Symbol klicken, wenn Sie sich Ihr Inventar ansehen.</p>
+	<image src="wod:images/teams" tw="16" th="16" />
+	</page>
+	<page>
+	<p>Dies ist das Team-Symbol.</p>
+	<p>Wenn du das erste Mal getroffen hast, kommst du zu einem anderen Bildschirm, auf dem ein Plus-Symbol und auf einem Multiplayer-Server andere Teams, denen du beitreten kannst.</p>
+	<image src="wod:images/add" tw="16" th="16" />
+	</page>
+	<page>
+	<p>Klicken Sie auf das Plus-Symbol, um Ihr Team oder ein anderes Team zu erstellen.</p>
+	<p>Wenn Sie auf das Plus-Symbol tippen, erscheint ein anderer Bildschirm, der Ihren Namen enthält. Sie können diesen Namen in den gewünschten Namen ändern, da dies der Teamname ist.</p>
+	</page>
+	<page>
+	<p>Wählen Sie eine Farbe, um Ihr Team zu repräsentieren, und klicken Sie auf "Akzeptieren".</p>
+	<p>Sie kehren ohne Erfolgs- oder Fehlernachricht in Ihre Umgebung zurück.</p>
+	</page>
+	<page>
+	<p>Gehen Sie zurück zu Ihrem Inventar 'e' und Sie sehen nun eine Reihe von Symbolen in der oberen linken Ecke.</p>
+	<p>Finden Sie das, das wie eine Karte aussieht.</p>
+	<image src="wod:images/chunks" tw="16" th="16" />
+	</page>
+	<page>
+	<p>Und klick darauf. Sie sehen nun eine Karte Ihres aktuellen Standorts. Mit der Maus darauf zeichnen. Diese Zeichnung stellt die Stücke dar, die Sie beanspruchen.</p>
+	<p>Um mehr</p>
+</page>
+<page>
+<p>	Klötzchen für die Behauptung zu erhalten, füge mehr Leute zu deinem Team hinzu.</p>
+	</page>
+	<page>
+	<p>Wenn Sie erneut auf das Team-Symbol klicken, haben Sie die Möglichkeit, Ihrem Team weitere Spieler hinzuzufügen. Eine Liste von ihnen wird auf der linken Seite angezeigt. Klicken Sie auf die Person und dann auf</p>
+	</page>
+	<page>
+	<p>das Plus-Symbol ganz rechts. Im mittleren Bereich können Sie ihre Berechtigungen anpassen.</p>
+	</page>
+</chapter>
+<chapter id="GE_TEAMS">
+	<page>
+		<title>Teamleitung</title>
+		<link ref="GE_CREATE">Ein Team erstellen</link>
+		<link ref="GE_ADD">Füge jemanden zu deinem Team hinzu</link>
+		<link ref="GE_ALLY">Gib jemandem Zugriff auf dein Team</link>
+		<link ref="GE_ENEMY">Verhindere, dass jemand deinem Team beitritt</link>
+	</page>
+</chapter>
+<chapter id="GE_CREATE">
+	<page>
+		<title>Ein Team erstellen</title>
+		<image src="wod:images/teams" tw="16" th="16" />
+		<p></p><p></p>
+        <p>Öffne dein Inventar und klicke oben links auf das Team-Symbol. Wenn Sie nicht in einem Team sind, sehen Sie einen Dialog, in dem Sie Ihr Team benennen und seine Farbe auswählen können.</p>
+	</page>
+	<page>
+		<p>Gratulation zu einem Team!</p>
+	</page>
+</chapter>
+<chapter id="GE_ADD">
+	<page>
+		<title>Zum Team hinzufügen</title>
+		<image src="wod:images/add" tw="16" th="16" />
+		<p></p><p></p>
+		<p>Öffne dein Inventar und klicke oben links auf das Team-Symbol. Wenn Sie nicht in einem Team sind, sehen Sie einen Dialog, in dem Sie Ihr Team benennen und seine Farbe auswählen können.</p>
+	</page>
+	<page>
+		<p>Klicken Sie auf den Namen des gewünschten Players in Ihrem Team und wählen Sie dann Einladung aus.</p>
+	</page>
+	<page>
+		<p>Herzlichen Glückwunsch zum Hinzufügen eines Spielers zu Ihrem Team.</p>
+	</page>
+</chapter>
+<chapter id="GE_ALLY">
+	<page>
+		<title>Einen Verbündeten hinzufügen</title>
+		<image src="wod:images/add" tw="16" th="16" />
+		<p></p><p></p>
+		<p>Öffne dein Inventar und klicke oben links auf das Team-Symbol. Wenn Sie nicht in einem Team sind, sehen Sie einen Dialog, in dem Sie Ihr Team benennen und seine Farbe auswählen können.</p>
+	</page>
+	<page>
+		<p>Klicken Sie auf den Spielernamen, für den der Zugriff zugelassen werden soll, und wählen Sie dann einen Verbündeten aus.</p>
+	</page>
+	<page>
+		<p>Herzlichen Glückwunsch, dass Sie einen Spieler in Ihr Team aufgenommen haben.</p>
+	</page>
+</chapter>
+<chapter id="GE_ENEMY">
+	<page>
+		<title>Den Feind erklären</title>
+		<image src="wod:images/add" tw="16" th="16" />
+		<p></p><p></p>
+		<p>Öffne dein Inventar und klicke oben links auf das Team-Symbol. Wenn Sie nicht in einem Team sind, sehen Sie einen Dialog, in dem Sie Ihr Team benennen und seine Farbe auswählen können.</p>
+	</page>
+	<page>
+		<p>Klicke auf den Namen deines Gegners und wähle dann den Gegner aus.</p>
+	</page>
+	<page>
+		<p>Herzlichen Glückwunsch, jemandem den Finger zu geben!</p>
+	</page>
+</chapter>
+<chapter id="GELANGWEILT">
+	<page id="1"><title>Questing</title>
+	<p>Es gibt keine wirklichen Quests, die dich in dieser Welt in Bezug auf die Drachen führen werden. Es gibt jedoch Dörfer, Herren und Ladenbesitzer, die Sie mit eigenen Quests versorgen, wobei Sie Belohnungen von</p>
+	</page>
+	<page>
+	<p>unterschiedlicher Qualität erhalten können.</p>
+	</page>
+	<page>
+	<p>Diese Quests werden helfen, deine Langeweile zu lindern, wenn du feststellst, dass es nicht genug zu tun gibt, während du versuchst, einen Drachen zu erobern und zu reiten. Ja, das </p>
+	</page>
+	<page>
+	<p>ist dein ultimatives Ziel. Und wenn Sie in einer Welt spielen,</p>
+	</page>
+	<page>
+	<p>in der andere Spieler im Überfluss sind</p>
+	</page>
+	<page>
+	<p>dann könnten Sie sogar sagen, Ihr anderes Ziel ist es, diese anderen Spieler zu bekämpfen, um der Lord High Dragonborn zu sein!</p>
+	</page>
+</chapter>
+</book>

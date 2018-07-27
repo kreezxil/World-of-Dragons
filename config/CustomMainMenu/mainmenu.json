@@ -1,0 +1,171 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "wod:textures/gui/heading.png",
+            "posX" : -237,
+            "posY" : 15,
+            "width" : 480,
+            "height" : 128,
+            "alignment" : "top_center"
+        }
+    },
+ 
+	"buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"alignment" : "left",
+            "posX" : 15,
+            "posY" : 120,
+            "width" : 100,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"alignment" : "left",
+            "posX" : 15,
+            "posY" : 140,
+            "width" : 100,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+			"alignment" : "left",
+            "posX" : 15,
+            "posY" : 160,
+            "width" : 45,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"alignment" : "left",
+            "posX" : 59,
+            "posY" : 160,
+            "width" : 56,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "language":
+        {
+            "text" : " ",
+			"alignment" : "left",
+            "posX" : 15,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : " ",
+			"alignment" : "left",
+            "posX" : 35,
+            "posY" : 180,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+			"alignment" : "left",
+            "posX" : 55,
+            "posY" : 180,
+            "width" : 60,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+        
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 190,
+            "posY" : 120,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:wod:texts/splashes.txt"
+        },
+        
+"background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+                                        "wod:scrn/1.png",
+                                        "wod:scrn/2.png",
+										"wod:scrn/3.png"
+                                                        ],
+                                "displayDuration" : 100,
+                                "fadeDuration" : 40,
+                                "shuffle" : true
+            }
+        }   
+	}
+}

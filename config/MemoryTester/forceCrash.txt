@@ -1,0 +1,2 @@
+Info=World of Dragons Lite is designed for Potato PCs you might want to play it instead.
+RedirectLink=https://minecraft.curseforge.com/projects/world-of-dragons-potato

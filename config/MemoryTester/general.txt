@@ -1,0 +1,4 @@
+RecommendedMemoryAllocation=4800
+UseMenuGui=false
+UseStatisticsGui=false
+UseForceCrashGui=true
