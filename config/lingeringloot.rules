@@ -98,5 +98,4 @@
 
 
 # The safe tag identifies items that have not had their despawn timer or pickup delay changed by other mods
-1 :botania -> finalize
-0 @other -> timer(15.0)
+0 @other -> timer(45.0)
