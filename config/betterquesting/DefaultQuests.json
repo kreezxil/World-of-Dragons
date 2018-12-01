@@ -23,7 +23,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Synopsis",
           "desc:8": "Sitting back in your easy chair, your favorite book of Fantasy and Dragons on your lap, you reflect on how hard your day has been. It started this morning when you woke up. You recall hitting the alarm clock about 5 times before throwing it into the closet. You begrudgingly got up and got yourself ready for work. How long has it been since you didn\u0027t have this schedule. You can\u0027t remember, it\u0027s been at least a decade since you got out of Highschool and half that for College. You weren\u0027t the brightest of your peers but you had a rock solid understanding of physics and electrical engineering. Enough to get a good job, working long hard hours.\n\n \n\nYou haven\u0027t had time to socialize, nor get married like your friends have. All you have are these fantasy books and a computer on which you used to play Minecraft. Well you still do, but something weird happened yesterday. A star seemingly fell out of the sky and hit your computer causing it to sparkle, twinkle and you thought go up in smoke. Nothing comes on the screen now, despite none of the power buttons turning off. You recall that you unplugged them. Too tired to care you started reading that book, the one that is in your lap now. It was because of that book about dragons in a mysterious parallel world that your day was in upheaval the way it was, why you were an hour late for work, why for the first time in 3 years your boss ever yelled at you.\n\n \n\nFrustrated and exhausted as you now are, you have just completed another 100 pages in your book and you are tired. You are so indeterminably tired that you can hear someone by the name of Torhall calling on you from a parallel world. \"Go to sleep\", he says, \"you\u0027ve earned it.\"\n\n \n\n[You are in a deep comfortable sleep, you begin to feel very well rested.]\n\n \n\nAs you waken, you find yourself in a somewhat unfamiliar tho not exactly strange environment. You are no longer in your home. There is no computer near you. And what\u0027s this!?? Your fingers and hands are little square nubs now. \n\n \n\nYou have the sudden realization that you are either a Minecraft character or in a horribly twisted dream.\n\n\n\n\n\n\n"
         }
@@ -1019,115 +1019,6 @@
       }
     },
     "15:10": {
-      "questID:3": 15,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecolonies:sceptergold",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "partysinglereward:1": 0,
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "Build Tool",
-          "desc:8": "How to place building\u0027s right click on something and a veiw of the building be for placing anything like your town hall"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecolonies:sceptergold",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:bed",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          }
-        }
-      }
-    },
-    "16:10": {
-      "questID:3": 16,
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecolonies:supplycampdeployer",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "partysinglereward:1": 0,
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "Land Colony",
-          "desc:8": "how to start a colony"
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "minecolonies:supplycampdeployer",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {}
-    },
-    "17:10": {
       "questID:3": 17,
       "preRequisites:11": [
         2
@@ -1184,7 +1075,7 @@
         }
       }
     },
-    "18:10": {
+    "16:10": {
       "questID:3": 18,
       "preRequisites:11": [
         7,
@@ -1251,7 +1142,7 @@
         }
       }
     },
-    "19:10": {
+    "17:10": {
       "questID:3": 19,
       "preRequisites:11": [
         17
@@ -1332,7 +1223,7 @@
         }
       }
     },
-    "20:10": {
+    "18:10": {
       "questID:3": 20,
       "preRequisites:11": [
         18
@@ -1415,7 +1306,7 @@
         }
       }
     },
-    "21:10": {
+    "19:10": {
       "questID:3": 21,
       "preRequisites:11": [
         18
@@ -1496,7 +1387,7 @@
         }
       }
     },
-    "22:10": {
+    "20:10": {
       "questID:3": 22,
       "preRequisites:11": [
         25
@@ -1565,7 +1456,7 @@
         }
       }
     },
-    "23:10": {
+    "21:10": {
       "questID:3": 23,
       "preRequisites:11": [
         8
@@ -1628,7 +1519,7 @@
         }
       }
     },
-    "24:10": {
+    "22:10": {
       "questID:3": 24,
       "preRequisites:11": [
         5
@@ -1691,7 +1582,7 @@
         }
       }
     },
-    "25:10": {
+    "23:10": {
       "questID:3": 25,
       "preRequisites:11": [
         18
@@ -1754,7 +1645,7 @@
         }
       }
     },
-    "26:10": {
+    "24:10": {
       "questID:3": 26,
       "preRequisites:11": [
         27
@@ -1823,7 +1714,7 @@
         }
       }
     },
-    "27:10": {
+    "25:10": {
       "questID:3": 27,
       "preRequisites:11": [
         22
@@ -1893,7 +1784,7 @@
         }
       }
     },
-    "28:10": {
+    "26:10": {
       "questID:3": 28,
       "preRequisites:11": [
         2
@@ -1956,7 +1847,7 @@
         }
       }
     },
-    "29:10": {
+    "27:10": {
       "questID:3": 29,
       "preRequisites:11": [
         1
@@ -2019,7 +1910,7 @@
         }
       }
     },
-    "30:10": {
+    "28:10": {
       "questID:3": 30,
       "preRequisites:11": [
         43
@@ -2132,7 +2023,7 @@
         }
       }
     },
-    "31:10": {
+    "29:10": {
       "questID:3": 31,
       "preRequisites:11": [
         33
@@ -2195,7 +2086,7 @@
         }
       }
     },
-    "32:10": {
+    "30:10": {
       "questID:3": 32,
       "preRequisites:11": [
         33
@@ -2264,7 +2155,7 @@
         }
       }
     },
-    "33:10": {
+    "31:10": {
       "questID:3": 33,
       "preRequisites:11": [
         29
@@ -2327,7 +2218,7 @@
         }
       }
     },
-    "34:10": {
+    "32:10": {
       "questID:3": 34,
       "preRequisites:11": [
         29
@@ -2384,7 +2275,7 @@
         }
       }
     },
-    "35:10": {
+    "33:10": {
       "questID:3": 35,
       "preRequisites:11": [
         34
@@ -2447,7 +2338,7 @@
         }
       }
     },
-    "36:10": {
+    "34:10": {
       "questID:3": 36,
       "preRequisites:11": [
         38
@@ -2505,7 +2396,7 @@
         }
       }
     },
-    "37:10": {
+    "35:10": {
       "questID:3": 37,
       "preRequisites:11": [
         43
@@ -2568,7 +2459,7 @@
         }
       }
     },
-    "38:10": {
+    "36:10": {
       "questID:3": 38,
       "preRequisites:11": [
         1
@@ -2625,7 +2516,7 @@
         }
       }
     },
-    "39:10": {
+    "37:10": {
       "questID:3": 39,
       "preRequisites:11": [
         29
@@ -2688,7 +2579,7 @@
         }
       }
     },
-    "40:10": {
+    "38:10": {
       "questID:3": 40,
       "preRequisites:11": [
         37
@@ -2751,7 +2642,7 @@
         }
       }
     },
-    "41:10": {
+    "39:10": {
       "questID:3": 41,
       "preRequisites:11": [
         40
@@ -2808,7 +2699,7 @@
         }
       }
     },
-    "42:10": {
+    "40:10": {
       "questID:3": 42,
       "preRequisites:11": [
         39
@@ -2871,7 +2762,7 @@
         }
       }
     },
-    "43:10": {
+    "41:10": {
       "questID:3": 43,
       "preRequisites:11": [
         46
@@ -2934,7 +2825,7 @@
         }
       }
     },
-    "44:10": {
+    "42:10": {
       "questID:3": 44,
       "preRequisites:11": [
         36,
@@ -2998,7 +2889,7 @@
         }
       }
     },
-    "45:10": {
+    "43:10": {
       "questID:3": 45,
       "preRequisites:11": [
         36,
@@ -3062,7 +2953,7 @@
         }
       }
     },
-    "46:10": {
+    "44:10": {
       "questID:3": 46,
       "preRequisites:11": [
         42
@@ -3125,7 +3016,7 @@
         }
       }
     },
-    "47:10": {
+    "45:10": {
       "questID:3": 47,
       "preRequisites:11": [
         41
@@ -3188,8 +3079,8 @@
         }
       }
     },
-    "48:10": {
-      "questID:3": 48,
+    "46:10": {
+      "questID:3": 49,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -3198,10 +3089,9 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecolonies:supplychestdeployer",
+            "id:8": "ironchest:iron_chest",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -3211,33 +3101,96 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "Sea Colony",
-          "desc:8": "How to start a sea colony"
+          "ismain:1": 1,
+          "name:8": "More than wood",
+          "desc:8": "Welcom to the iron chest mod. You can easily expand your existing chest storage with it. To start you will need iron ingots x 8 for and a block of wood planks for an upgrade that you apply with a right click, or iron ingots x 8 and a chest to make an iron chest outright.\n\nThe tiers that matter the most are: iron, gold, and diamond."
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
           "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
             "0:10": {
-              "id:8": "minecolonies:supplychestdeployer",
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:planks",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
             }
+          }
+        }
+      }
+    },
+    "47:10": {
+      "questID:3": 50,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:basicdrawers",
+            "Count:3": 1,
+            "tag:10": {
+              "material:8": "oak"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
           },
-          "taskID:8": "bq_standard:retrieval"
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "Storage Drawers",
+          "desc:8": "Another type of mass storage system is the storage drawer. The basic container is crafted with a chest in the middle and planks of one type of wood across the top and bottom.\n\nIt can be upgraded in the same way that Iron Chests are upgraded but with it\u0027s own upgrade items.\n\nUse JEI to search it, in the search box type @storagedrawers."
         }
       },
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:planks",
+              "Count:3": 6,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:chest",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
-    "49:10": {
+    "48:10": {
       "questID:3": 51,
       "preRequisites:11": [
         33
@@ -3312,7 +3265,7 @@
         }
       }
     },
-    "50:10": {
+    "49:10": {
       "questID:3": 52,
       "preRequisites:11": [
         51
@@ -3375,7 +3328,131 @@
         }
       }
     },
+    "50:10": {
+      "questID:3": 53,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 100,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:flower",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Flowers who needs them!",
+          "desc:8": "Get an iron ingot for collecting a botania flower!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:flower",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
     "51:10": {
+      "questID:3": 54,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 100,
+          "visibility:8": "ALWAYS",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:flower",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Flowers are evil!",
+          "desc:8": "Get an gold ingot for collecting a botania flower!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:flower",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "52:10": {
       "questID:3": 55,
       "preRequisites:11": [
         51
@@ -3450,7 +3527,7 @@
         }
       }
     },
-    "52:10": {
+    "53:10": {
       "questID:3": 56,
       "preRequisites:11": [
         36,
@@ -3514,7 +3591,145 @@
         }
       }
     },
-    "53:10": {
+    "54:10": {
+      "questID:3": 57,
+      "preRequisites:11": [
+        49
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ironchest:wood_iron_chest_upgrade",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Make an upgrade",
+          "desc:8": "We will now craft an wooden to iron chest upgrade. Place a block of wood planks in the center of the crafting table. Then surround it with iron ingots to get the upgrade. With the upgrade in your hand right click a wooden chest to upgrade it. If a double chest, half the chest will upgrade."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ironchest:wood_iron_chest_upgrade",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 8,
+              "OreDict:8": "ingotGold",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "55:10": {
+      "questID:3": 58,
+      "preRequisites:11": [
+        57
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ironchest:iron_gold_chest_upgrade",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Time to make a Golden Chest",
+          "desc:8": "While the iron chest has twice the amount of storage as a wooden chest, the golden chest has twice that!\n\nWith the iron to gold chest upgrade in hand right click an iron chest to upgrade it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ironchest:iron_gold_chest_upgrade",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 1,
+              "OreDict:8": "ingotGold",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "minecraft:glass",
+              "Count:3": 6,
+              "OreDict:8": "blockGlassColorless",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "56:10": {
       "questID:3": 59,
       "preRequisites:11": [
         36,
@@ -3572,7 +3787,7 @@
         }
       }
     },
-    "54:10": {
+    "57:10": {
       "questID:3": 60,
       "preRequisites:11": [
         36,
@@ -3630,7 +3845,7 @@
         }
       }
     },
-    "55:10": {
+    "58:10": {
       "questID:3": 61,
       "preRequisites:11": [
         36,
@@ -3703,7 +3918,7 @@
         }
       }
     },
-    "56:10": {
+    "59:10": {
       "questID:3": 62,
       "preRequisites:11": [
         36,
@@ -3767,7 +3982,7 @@
         }
       }
     },
-    "57:10": {
+    "60:10": {
       "questID:3": 63,
       "preRequisites:11": [
         36,
@@ -3834,7 +4049,7 @@
         }
       }
     },
-    "58:10": {
+    "61:10": {
       "questID:3": 64,
       "preRequisites:11": [
         36,
@@ -3892,7 +4107,7 @@
         }
       }
     },
-    "59:10": {
+    "62:10": {
       "questID:3": 65,
       "preRequisites:11": [
         40
@@ -3961,7 +4176,7 @@
         }
       }
     },
-    "60:10": {
+    "63:10": {
       "questID:3": 66,
       "preRequisites:11": [
         63,
@@ -4038,7 +4253,7 @@
         }
       }
     },
-    "61:10": {
+    "64:10": {
       "questID:3": 67,
       "preRequisites:11": [
         36,
@@ -4096,7 +4311,68 @@
         }
       }
     },
-    "62:10": {
+    "65:10": {
+      "questID:3": 68,
+      "preRequisites:11": [
+        58
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ironchest:gold_diamond_chest_upgrade",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Golden to Diamond Chest Upgrade",
+          "desc:8": "This beauty has 2x the space of the golden chest!\n\nCrafted with a gold ingot in the center and a diamond on both sides. It sets on a bed of glass and is delicately frosted with even more glass.\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ironchest:gold_diamond_chest_upgrade",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 64,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "66:10": {
       "questID:3": 69,
       "preRequisites:11": [],
       "properties:10": {
@@ -4253,7 +4529,7 @@
         }
       }
     },
-    "63:10": {
+    "67:10": {
       "questID:3": 70,
       "preRequisites:11": [],
       "properties:10": {
@@ -4316,7 +4592,7 @@
         }
       }
     },
-    "64:10": {
+    "68:10": {
       "questID:3": 71,
       "preRequisites:11": [],
       "properties:10": {
@@ -4377,7 +4653,7 @@
         }
       }
     },
-    "65:10": {
+    "69:10": {
       "questID:3": 72,
       "preRequisites:11": [
         71
@@ -4446,7 +4722,7 @@
         }
       }
     },
-    "66:10": {
+    "70:10": {
       "questID:3": 73,
       "preRequisites:11": [
         72
@@ -4509,7 +4785,7 @@
         }
       }
     },
-    "67:10": {
+    "71:10": {
       "questID:3": 74,
       "preRequisites:11": [
         76
@@ -4587,7 +4863,7 @@
         }
       }
     },
-    "68:10": {
+    "72:10": {
       "questID:3": 75,
       "preRequisites:11": [
         74,
@@ -4651,7 +4927,7 @@
         }
       }
     },
-    "69:10": {
+    "73:10": {
       "questID:3": 76,
       "preRequisites:11": [
         73
@@ -4725,7 +5001,7 @@
         }
       }
     },
-    "70:10": {
+    "74:10": {
       "questID:3": 77,
       "preRequisites:11": [
         75
@@ -4782,7 +5058,7 @@
         }
       }
     },
-    "71:10": {
+    "75:10": {
       "questID:3": 78,
       "preRequisites:11": [
         76
@@ -4860,7 +5136,7 @@
         }
       }
     },
-    "72:10": {
+    "76:10": {
       "questID:3": 79,
       "preRequisites:11": [
         77
@@ -4929,7 +5205,7 @@
         }
       }
     },
-    "73:10": {
+    "77:10": {
       "questID:3": 80,
       "preRequisites:11": [
         75,
@@ -4987,7 +5263,7 @@
         }
       }
     },
-    "74:10": {
+    "78:10": {
       "questID:3": 81,
       "preRequisites:11": [
         82
@@ -5056,7 +5332,7 @@
         }
       }
     },
-    "75:10": {
+    "79:10": {
       "questID:3": 82,
       "preRequisites:11": [
         80
@@ -5119,7 +5395,127 @@
         }
       }
     },
-    "76:10": {
+    "80:10": {
+      "questID:3": 83,
+      "preRequisites:11": [
+        167
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_wart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Acquire Nether Wart",
+          "desc:8": "Yawn! Gotta make the ... donuts?\n\nNope, Nether Wart farm. We need nether wart!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_wart",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 10,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 0,
+          "index:3": 0
+        }
+      }
+    },
+    "81:10": {
+      "questID:3": 84,
+      "preRequisites:11": [
+        83
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nex:wither_bone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Wither Skeletons!",
+          "desc:8": "Kill some defenseless, not a care in the world Wither Skeletons! You need at least 2 of their bones!\n\nYou\u0027ll get a free Nether Star for your effort."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nex:wither_bone",
+              "Count:3": 2,
+              "OreDict:8": "boneWithered",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_star",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "82:10": {
       "questID:3": 85,
       "preRequisites:11": [
         89
@@ -5195,7 +5591,7 @@
         }
       }
     },
-    "77:10": {
+    "83:10": {
       "questID:3": 86,
       "preRequisites:11": [
         85
@@ -5252,7 +5648,7 @@
         }
       }
     },
-    "78:10": {
+    "84:10": {
       "questID:3": 87,
       "preRequisites:11": [
         80
@@ -5315,7 +5711,7 @@
         }
       }
     },
-    "79:10": {
+    "85:10": {
       "questID:3": 88,
       "preRequisites:11": [
         80
@@ -5372,7 +5768,7 @@
         }
       }
     },
-    "80:10": {
+    "86:10": {
       "questID:3": 89,
       "preRequisites:11": [
         75
@@ -5429,7 +5825,7 @@
         }
       }
     },
-    "81:10": {
+    "87:10": {
       "questID:3": 90,
       "preRequisites:11": [
         86
@@ -5490,7 +5886,7 @@
         }
       }
     },
-    "82:10": {
+    "88:10": {
       "questID:3": 91,
       "preRequisites:11": [
         75
@@ -5565,7 +5961,7 @@
         }
       }
     },
-    "83:10": {
+    "89:10": {
       "questID:3": 92,
       "preRequisites:11": [
         86
@@ -5646,7 +6042,7 @@
         }
       }
     },
-    "84:10": {
+    "90:10": {
       "questID:3": 93,
       "preRequisites:11": [
         75
@@ -5705,7 +6101,7 @@
         }
       }
     },
-    "85:10": {
+    "91:10": {
       "questID:3": 94,
       "preRequisites:11": [
         93
@@ -5767,7 +6163,7 @@
         }
       }
     },
-    "86:10": {
+    "92:10": {
       "questID:3": 95,
       "preRequisites:11": [
         86
@@ -5824,7 +6220,7 @@
         }
       }
     },
-    "87:10": {
+    "93:10": {
       "questID:3": 96,
       "preRequisites:11": [
         77
@@ -5893,7 +6289,7 @@
         }
       }
     },
-    "88:10": {
+    "94:10": {
       "questID:3": 97,
       "preRequisites:11": [
         77
@@ -5962,7 +6358,7 @@
         }
       }
     },
-    "89:10": {
+    "95:10": {
       "questID:3": 98,
       "preRequisites:11": [
         77
@@ -6031,7 +6427,7 @@
         }
       }
     },
-    "90:10": {
+    "96:10": {
       "questID:3": 99,
       "preRequisites:11": [],
       "properties:10": {
@@ -6079,7 +6475,7 @@
         }
       }
     },
-    "91:10": {
+    "97:10": {
       "questID:3": 100,
       "preRequisites:11": [
         76
@@ -6142,7 +6538,7 @@
         }
       }
     },
-    "92:10": {
+    "98:10": {
       "questID:3": 101,
       "preRequisites:11": [
         76
@@ -6205,7 +6601,7 @@
         }
       }
     },
-    "93:10": {
+    "99:10": {
       "questID:3": 102,
       "preRequisites:11": [
         76
@@ -6255,7 +6651,7 @@
       },
       "rewards:9": {}
     },
-    "94:10": {
+    "100:10": {
       "questID:3": 103,
       "preRequisites:11": [
         76
@@ -6318,7 +6714,7 @@
         }
       }
     },
-    "95:10": {
+    "101:10": {
       "questID:3": 104,
       "preRequisites:11": [
         75
@@ -6375,7 +6771,7 @@
         }
       }
     },
-    "96:10": {
+    "102:10": {
       "questID:3": 105,
       "preRequisites:11": [
         99
@@ -6432,7 +6828,7 @@
         }
       }
     },
-    "97:10": {
+    "103:10": {
       "questID:3": 106,
       "preRequisites:11": [
         152
@@ -6489,7 +6885,7 @@
         }
       }
     },
-    "98:10": {
+    "104:10": {
       "questID:3": 107,
       "preRequisites:11": [
         99
@@ -6546,7 +6942,7 @@
         }
       }
     },
-    "99:10": {
+    "105:10": {
       "questID:3": 108,
       "preRequisites:11": [],
       "properties:10": {
@@ -6603,7 +6999,7 @@
         }
       }
     },
-    "100:10": {
+    "106:10": {
       "questID:3": 109,
       "preRequisites:11": [
         107
@@ -6666,7 +7062,7 @@
         }
       }
     },
-    "101:10": {
+    "107:10": {
       "questID:3": 110,
       "preRequisites:11": [
         105
@@ -6723,7 +7119,7 @@
         }
       }
     },
-    "102:10": {
+    "108:10": {
       "questID:3": 111,
       "preRequisites:11": [
         110
@@ -6780,7 +7176,7 @@
         }
       }
     },
-    "103:10": {
+    "109:10": {
       "questID:3": 112,
       "preRequisites:11": [
         110
@@ -6843,7 +7239,7 @@
         }
       }
     },
-    "104:10": {
+    "110:10": {
       "questID:3": 113,
       "preRequisites:11": [
         109
@@ -6918,7 +7314,7 @@
         }
       }
     },
-    "105:10": {
+    "111:10": {
       "questID:3": 114,
       "preRequisites:11": [
         110
@@ -6981,7 +7377,7 @@
         }
       }
     },
-    "106:10": {
+    "112:10": {
       "questID:3": 115,
       "preRequisites:11": [
         110
@@ -7038,7 +7434,7 @@
         }
       }
     },
-    "107:10": {
+    "113:10": {
       "questID:3": 116,
       "preRequisites:11": [
         142
@@ -7095,7 +7491,7 @@
         }
       }
     },
-    "108:10": {
+    "114:10": {
       "questID:3": 117,
       "preRequisites:11": [
         142
@@ -7158,7 +7554,7 @@
         }
       }
     },
-    "109:10": {
+    "115:10": {
       "questID:3": 118,
       "preRequisites:11": [
         29
@@ -7221,7 +7617,7 @@
         }
       }
     },
-    "110:10": {
+    "116:10": {
       "questID:3": 119,
       "preRequisites:11": [
         35
@@ -7284,7 +7680,7 @@
         }
       }
     },
-    "111:10": {
+    "117:10": {
       "questID:3": 120,
       "preRequisites:11": [
         35
@@ -7347,7 +7743,7 @@
         }
       }
     },
-    "112:10": {
+    "118:10": {
       "questID:3": 121,
       "preRequisites:11": [
         118
@@ -7407,7 +7803,7 @@
         }
       }
     },
-    "113:10": {
+    "119:10": {
       "questID:3": 122,
       "preRequisites:11": [
         35
@@ -7470,7 +7866,7 @@
         }
       }
     },
-    "114:10": {
+    "120:10": {
       "questID:3": 123,
       "preRequisites:11": [
         77
@@ -7539,7 +7935,7 @@
         }
       }
     },
-    "115:10": {
+    "121:10": {
       "questID:3": 124,
       "preRequisites:11": [
         77
@@ -7608,7 +8004,7 @@
         }
       }
     },
-    "116:10": {
+    "122:10": {
       "questID:3": 125,
       "preRequisites:11": [
         77
@@ -7677,7 +8073,7 @@
         }
       }
     },
-    "117:10": {
+    "123:10": {
       "questID:3": 126,
       "preRequisites:11": [
         77
@@ -7746,7 +8142,7 @@
         }
       }
     },
-    "118:10": {
+    "124:10": {
       "questID:3": 127,
       "preRequisites:11": [
         75
@@ -7805,7 +8201,7 @@
         }
       }
     },
-    "119:10": {
+    "125:10": {
       "questID:3": 128,
       "preRequisites:11": [
         127
@@ -7868,81 +8264,7 @@
         }
       }
     },
-    "120:10": {
-      "questID:3": 129,
-      "preRequisites:11": [
-        76
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "botania:craftinghalo",
-            "Count:3": 1,
-            "tag:10": {
-              "storedRecipe11:10": {},
-              "equipped:1": 0,
-              "rotationBase:5": 618.44714,
-              "storedRecipe1:10": {},
-              "storedRecipe6:10": {}
-            },
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "partysinglereward:1": 0,
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "ismain:1": 0,
-          "name:8": "Assembly Halo",
-          "desc:8": ""
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:craftinghalo",
-              "Count:3": 1,
-              "tag:10": {
-                "storedRecipe11:10": {},
-                "equipped:1": 0,
-                "rotationBase:5": 434.85596,
-                "storedRecipe1:10": {},
-                "storedRecipe6:10": {}
-              },
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "botania:manabottle",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            }
-          }
-        }
-      }
-    },
-    "121:10": {
+    "126:10": {
       "questID:3": 130,
       "preRequisites:11": [
         76
@@ -8002,7 +8324,7 @@
         }
       }
     },
-    "122:10": {
+    "127:10": {
       "questID:3": 131,
       "preRequisites:11": [
         76
@@ -8062,7 +8384,7 @@
         }
       }
     },
-    "123:10": {
+    "128:10": {
       "questID:3": 132,
       "preRequisites:11": [
         76
@@ -8124,7 +8446,7 @@
         }
       }
     },
-    "124:10": {
+    "129:10": {
       "questID:3": 133,
       "preRequisites:11": [],
       "properties:10": {
@@ -8133,7 +8455,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "statues:blockcreeperstatue",
@@ -8148,12 +8470,12 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Creepers",
-          "desc:8": "No Description"
+          "desc:8": "Woo Hoo, Grey Fire Dragon eggs!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
             "HurtByTimestamp:3": 0,
@@ -8258,15 +8580,28 @@
             "HurtTime:2": 0,
             "ExplosionRadius:1": 0
           },
-          "required:3": 100,
+          "required:3": 500,
           "taskID:8": "bq_standard:hunt",
           "target:8": "minecraft:creeper",
           "subtypes:1": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "iceandfire:dragonegg_gray",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
-    "125:10": {
+    "130:10": {
       "questID:3": 134,
       "preRequisites:11": [],
       "properties:10": {
@@ -8346,7 +8681,7 @@
         }
       }
     },
-    "126:10": {
+    "131:10": {
       "questID:3": 135,
       "preRequisites:11": [],
       "properties:10": {
@@ -8355,7 +8690,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
@@ -8371,15 +8706,15 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Zombies",
-          "desc:8": ""
+          "desc:8": "I\u0027ll feel frozen while fighting zombies!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 1,
           "targetNBT:10": {},
-          "required:3": 100,
+          "required:3": 200,
           "taskID:8": "bq_standard:hunt",
           "target:8": "minecraft:zombie",
           "subtypes:1": 0
@@ -8391,13 +8726,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 5,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "1:10": {
-              "id:8": "statues:blockzombiestatue",
+              "id:8": "iceandfire:dragonegg_sapphire",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -8406,7 +8735,7 @@
         }
       }
     },
-    "127:10": {
+    "132:10": {
       "questID:3": 136,
       "preRequisites:11": [],
       "properties:10": {
@@ -8415,7 +8744,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "statues:blockblazestatue",
@@ -8430,12 +8759,12 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Blazes",
-          "desc:8": ""
+          "desc:8": "Want a green fire dragon egg?"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
             "HurtByTimestamp:3": 0,
@@ -8544,28 +8873,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 5,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "1:10": {
-              "id:8": "statues:blockblazestatue",
+              "id:8": "iceandfire:dragonegg_green",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
-            },
-            "2:10": {
-              "id:8": "botania:cosmetic",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 19
             }
           }
         }
       }
     },
-    "128:10": {
+    "133:10": {
       "questID:3": 137,
       "preRequisites:11": [
         111,
@@ -8629,7 +8946,7 @@
         }
       }
     },
-    "129:10": {
+    "134:10": {
       "questID:3": 138,
       "preRequisites:11": [],
       "properties:10": {
@@ -8638,7 +8955,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "statues:blockghaststatue",
@@ -8653,15 +8970,16 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Ghasts",
-          "desc:8": ""
+          "desc:8": "Here\u0027s a chance at a bronze fire dragon egg!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
             "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
             "Attributes:9": {
               "0:10": {
                 "Base:6": 10.0,
@@ -8684,6 +9002,10 @@
                 "Name:8": "generic.armorToughness"
               },
               "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
                 "Base:6": 100.0,
                 "Name:8": "generic.followRange"
               }
@@ -8695,7 +9017,15 @@
             "FallDistance:5": 0.0,
             "DeathTime:2": 0,
             "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
               "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
                 "Ice And Fire - Stone Property Tracker:10": {
                   "StoneBreakLvl:3": 0,
                   "TurnedToStone:1": 0
@@ -8752,9 +9082,9 @@
             "CanPickUpLoot:1": 0,
             "HurtTime:2": 0
           },
-          "required:3": 32,
+          "required:3": 5,
           "taskID:8": "bq_standard:hunt",
-          "target:8": "Ghast",
+          "target:8": "minecraft:ghast",
           "subtypes:1": 0
         }
       },
@@ -8764,19 +9094,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 5,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "1:10": {
-              "id:8": "statues:blockghaststatue",
-              "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "2:10": {
-              "id:8": "xreliquary:infernal_tear",
+              "id:8": "iceandfire:dragonegg_bronze",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -8785,7 +9103,7 @@
         }
       }
     },
-    "130:10": {
+    "135:10": {
       "questID:3": 139,
       "preRequisites:11": [
         115,
@@ -8843,7 +9161,7 @@
         }
       }
     },
-    "131:10": {
+    "136:10": {
       "questID:3": 140,
       "preRequisites:11": [
         139
@@ -8900,7 +9218,7 @@
         }
       }
     },
-    "132:10": {
+    "137:10": {
       "questID:3": 141,
       "preRequisites:11": [
         137
@@ -8963,7 +9281,7 @@
         }
       }
     },
-    "133:10": {
+    "138:10": {
       "questID:3": 142,
       "preRequisites:11": [
         109
@@ -9026,7 +9344,7 @@
         }
       }
     },
-    "134:10": {
+    "139:10": {
       "questID:3": 143,
       "preRequisites:11": [
         141
@@ -9083,7 +9401,7 @@
         }
       }
     },
-    "135:10": {
+    "140:10": {
       "questID:3": 144,
       "preRequisites:11": [
         141
@@ -9140,7 +9458,7 @@
         }
       }
     },
-    "136:10": {
+    "141:10": {
       "questID:3": 145,
       "preRequisites:11": [
         137
@@ -9190,7 +9508,7 @@
       },
       "rewards:9": {}
     },
-    "137:10": {
+    "142:10": {
       "questID:3": 146,
       "preRequisites:11": [
         144,
@@ -9248,7 +9566,7 @@
         }
       }
     },
-    "138:10": {
+    "143:10": {
       "questID:3": 147,
       "preRequisites:11": [
         142
@@ -9305,7 +9623,7 @@
         }
       }
     },
-    "139:10": {
+    "144:10": {
       "questID:3": 148,
       "preRequisites:11": [
         117
@@ -9368,7 +9686,7 @@
         }
       }
     },
-    "140:10": {
+    "145:10": {
       "questID:3": 149,
       "preRequisites:11": [
         117,
@@ -9432,7 +9750,7 @@
         }
       }
     },
-    "141:10": {
+    "146:10": {
       "questID:3": 150,
       "preRequisites:11": [
         142
@@ -9489,7 +9807,7 @@
         }
       }
     },
-    "142:10": {
+    "147:10": {
       "questID:3": 151,
       "preRequisites:11": [
         148
@@ -9558,7 +9876,7 @@
         }
       }
     },
-    "143:10": {
+    "148:10": {
       "questID:3": 152,
       "preRequisites:11": [
         153
@@ -9615,7 +9933,7 @@
         }
       }
     },
-    "144:10": {
+    "149:10": {
       "questID:3": 153,
       "preRequisites:11": [
         151
@@ -9678,7 +9996,7 @@
         }
       }
     },
-    "145:10": {
+    "150:10": {
       "questID:3": 154,
       "preRequisites:11": [
         152
@@ -9741,7 +10059,7 @@
         }
       }
     },
-    "146:10": {
+    "151:10": {
       "questID:3": 155,
       "preRequisites:11": [
         154
@@ -9810,7 +10128,7 @@
         }
       }
     },
-    "147:10": {
+    "152:10": {
       "questID:3": 156,
       "preRequisites:11": [
         155
@@ -9873,7 +10191,7 @@
         }
       }
     },
-    "148:10": {
+    "153:10": {
       "questID:3": 157,
       "preRequisites:11": [
         142
@@ -9936,7 +10254,7 @@
         }
       }
     },
-    "149:10": {
+    "154:10": {
       "questID:3": 158,
       "preRequisites:11": [
         155
@@ -9999,7 +10317,7 @@
         }
       }
     },
-    "150:10": {
+    "155:10": {
       "questID:3": 159,
       "preRequisites:11": [
         162
@@ -10062,7 +10380,7 @@
         }
       }
     },
-    "151:10": {
+    "156:10": {
       "questID:3": 160,
       "preRequisites:11": [
         161,
@@ -10126,7 +10444,7 @@
         }
       }
     },
-    "152:10": {
+    "157:10": {
       "questID:3": 161,
       "preRequisites:11": [
         157
@@ -10189,7 +10507,7 @@
         }
       }
     },
-    "153:10": {
+    "158:10": {
       "questID:3": 162,
       "preRequisites:11": [
         158,
@@ -10253,7 +10571,7 @@
         }
       }
     },
-    "154:10": {
+    "159:10": {
       "questID:3": 163,
       "preRequisites:11": [
         164
@@ -10340,7 +10658,7 @@
         }
       }
     },
-    "155:10": {
+    "160:10": {
       "questID:3": 164,
       "preRequisites:11": [
         152
@@ -10397,7 +10715,7 @@
         }
       }
     },
-    "156:10": {
+    "161:10": {
       "questID:3": 165,
       "preRequisites:11": [
         160
@@ -10454,7 +10772,97 @@
         }
       }
     },
-    "157:10": {
+    "162:10": {
+      "questID:3": 166,
+      "preRequisites:11": [
+        84
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:gold_ingot",
+            "Count:3": 2,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Get some Gold Ingots",
+          "desc:8": "You only need 2!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "163:10": {
+      "questID:3": 167,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nex:ichor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "Get Ichor",
+          "desc:8": "Enter the Nether and find an Arctic Abyss. There you will find pools of ichor. Gather it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "FluidName:8": "blood",
+              "Amount:3": 1000
+            }
+          },
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "taskID:8": "bq_standard:fluid"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "164:10": {
       "questID:3": 168,
       "preRequisites:11": [
         86
@@ -10535,7 +10943,7 @@
         }
       }
     },
-    "158:10": {
+    "165:10": {
       "questID:3": 169,
       "preRequisites:11": [
         168
@@ -10604,7 +11012,7 @@
         }
       }
     },
-    "159:10": {
+    "166:10": {
       "questID:3": 170,
       "preRequisites:11": [
         169
@@ -10667,7 +11075,7 @@
         }
       }
     },
-    "160:10": {
+    "167:10": {
       "questID:3": 171,
       "preRequisites:11": [
         169
@@ -10736,8 +11144,234 @@
         }
       }
     },
-    "161:10": {
-      "questID:3": 182,
+    "168:10": {
+      "questID:3": 172,
+      "preRequisites:11": [
+        166
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nex:golden_wither_bone_hoe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Golden Wither Bone Hoe",
+          "desc:8": "You gotta craft it!\n\nYou will gain another Nether Star!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "nex:golden_wither_bone_hoe",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_star",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "169:10": {
+      "questID:3": 173,
+      "preRequisites:11": [
+        172
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "nex:tilled_soul_sand",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Tilled Soul Sand",
+          "desc:8": "The quest is complete.\n\nYou have everything you need to grow Nether Wart and some nice bonuses too if you didn\u0027t die and lose them in a lava pit somewhere!\n\n1. Place the ichor\n2. Put soul sand on both sides of it or around it, it\u0027s your farm!\n3. Till the soul sand with your §eGolden Wither Bone Hoe§r.\n4. Plant the §cNether Wart§r.\n\nAnd you\u0027ll gain 5 more levels and 8 Nether Wart!\n\nNow tell your friend how you did and quit coming on the channel and telling us Nether Wart is broken!\n\nThanks\n\nKreezxil\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 1,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "nex:ichor",
+              "Count:3": 5,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:nether_wart",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 1
+        }
+      }
+    },
+    "170:10": {
+      "questID:3": 174,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Storage Controller",
+          "desc:8": "A storage controller interfaces with all connected StorageDrawers and allows you to use it and single point of entry. It can be fed automatically. It will first attempt to find a slot with the item before using an empty slot."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagedrawers:controller",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "storagedrawers:controllerslave",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "171:10": {
+      "questID:3": 175,
+      "preRequisites:11": [
+        174
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagedrawers:controllerslave",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Slave Controller",
+          "desc:8": "It\u0027s primary purpose is to give you more access points for pipes, hoppers, and import/export devices. But it can also be used to connect other banks of drawers. Just be warned that a slave can only be bound to one controller, therefore you can\u0027t use it to link to another storage drawer network."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "172:10": {
+      "questID:3": 176,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -10746,6 +11380,338 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:stick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "We need a stick",
+          "desc:8": "I don\u0027t care how you get a stick, just get one."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stick",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "173:10": {
+      "questID:3": 177,
+      "preRequisites:11": [
+        176
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:glass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "A touch of glass!",
+          "desc:8": "Smelt some sand already!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:glass",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "174:10": {
+      "questID:3": 178,
+      "preRequisites:11": [
+        177
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "leverbuttonlights:glass_lever",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Putting it together!",
+          "desc:8": "Now that you have a stick and a block of glass, craft the stick on top of the glass to get a lever light. It\u0027s a standard lever with redstone signal that is also a light. Perfect for dark rooms!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "leverbuttonlights:glass_lever",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "175:10": {
+      "questID:3": 179,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:glass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "Maybe you want a colored button light!",
+          "desc:8": "Remember how to make a glass block? Sure you do, get busy!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:glass",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "176:10": {
+      "questID:3": 180,
+      "preRequisites:11": [
+        179
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:dye",
+            "Count:3": 1,
+            "Damage:2": 11,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Get yellow dye!",
+          "desc:8": "Honestly, we\u0027re making colored glass. So any dye will do but for this task we want you to kill a defenseless yellow flower and turn it into dye."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 11
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 1,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "177:10": {
+      "questID:3": 181,
+      "preRequisites:11": [
+        180
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "leverbuttonlights:yellow_button",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Putting it together!",
+          "desc:8": "You will need 8 glass blocks and 1 yellow dye. With the dye in the center sourround it with glass. This will give you a yellow glass block. Then take one yellow glass block and place it in the center of the grid to get a yellow glass button which is also a light when it is on and yes it emits a redstone signal just like a lever."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "leverbuttonlights:yellow_button",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 5,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "178:10": {
+      "questID:3": 182,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "props:props",
@@ -10760,12 +11726,12 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Spiders",
-          "desc:8": "No Description"
+          "desc:8": "Spider silk causes slowness, probably so does an ice dragon!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
             "HurtByTimestamp:3": 0,
@@ -10873,10 +11839,23 @@
           "subtypes:1": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "iceandfire:dragonegg_blue",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
-    "162:10": {
-      "questID:3": 202,
+    "179:10": {
+      "questID:3": 183,
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -10885,6 +11864,96 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "180:10": {
+      "questID:3": 184,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "181:10": {
+      "questID:3": 185,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "182:10": {
+      "questID:3": 202,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:skull",
@@ -10899,12 +11968,12 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Skeletons",
-          "desc:8": "No Description"
+          "desc:8": "Skeletons make you slow and cautious just like Ice dragons!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
             "HurtByTimestamp:3": 0,
@@ -11012,9 +12081,22 @@
           "subtypes:1": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "iceandfire:dragonegg_white",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
-    "163:10": {
+    "183:10": {
       "questID:3": 214,
       "preRequisites:11": [],
       "properties:10": {
@@ -11023,7 +12105,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "statues:blockwitchstatue",
@@ -11038,12 +12120,12 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Witches",
-          "desc:8": "No Description"
+          "desc:8": "The final Ice Egg!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
             "HurtByTimestamp:3": 0,
@@ -11145,15 +12227,28 @@
             "CanPickUpLoot:1": 0,
             "HurtTime:2": 0
           },
-          "required:3": 25,
+          "required:3": 5,
           "taskID:8": "bq_standard:hunt",
           "target:8": "minecraft:witch",
           "subtypes:1": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "iceandfire:dragonegg_silver",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
-    "164:10": {
+    "184:10": {
       "questID:3": 215,
       "preRequisites:11": [],
       "properties:10": {
@@ -11162,7 +12257,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "embers:ancient_motive_core",
@@ -11177,12 +12272,12 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Kill Ancient Golems",
-          "desc:8": "No Description"
+          "desc:8": "These guys shoot fire and so will your fire dragon!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
             "HurtByTimestamp:3": 0,
@@ -11284,15 +12379,28 @@
             "CanPickUpLoot:1": 0,
             "HurtTime:2": 0
           },
-          "required:3": 50,
+          "required:3": 10,
           "taskID:8": "bq_standard:hunt",
           "target:8": "embers:ancient_golem",
           "subtypes:1": 0
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "iceandfire:dragonegg_red",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
     },
-    "165:10": {
+    "185:10": {
       "questID:3": 216,
       "preRequisites:11": [
         229
@@ -11388,7 +12496,7 @@
         }
       }
     },
-    "166:10": {
+    "186:10": {
       "questID:3": 217,
       "preRequisites:11": [
         216
@@ -11451,7 +12559,7 @@
         }
       }
     },
-    "167:10": {
+    "187:10": {
       "questID:3": 218,
       "preRequisites:11": [
         216
@@ -11514,7 +12622,7 @@
         }
       }
     },
-    "168:10": {
+    "188:10": {
       "questID:3": 219,
       "preRequisites:11": [
         216
@@ -11577,7 +12685,7 @@
         }
       }
     },
-    "169:10": {
+    "189:10": {
       "questID:3": 220,
       "preRequisites:11": [
         216
@@ -11640,7 +12748,7 @@
         }
       }
     },
-    "170:10": {
+    "190:10": {
       "questID:3": 221,
       "preRequisites:11": [
         216
@@ -11703,7 +12811,7 @@
         }
       }
     },
-    "171:10": {
+    "191:10": {
       "questID:3": 222,
       "preRequisites:11": [
         216
@@ -11766,7 +12874,7 @@
         }
       }
     },
-    "172:10": {
+    "192:10": {
       "questID:3": 223,
       "preRequisites:11": [
         216
@@ -11829,7 +12937,7 @@
         }
       }
     },
-    "173:10": {
+    "193:10": {
       "questID:3": 224,
       "preRequisites:11": [
         232
@@ -11892,7 +13000,7 @@
         }
       }
     },
-    "174:10": {
+    "194:10": {
       "questID:3": 225,
       "preRequisites:11": [
         232
@@ -11955,7 +13063,7 @@
         }
       }
     },
-    "175:10": {
+    "195:10": {
       "questID:3": 226,
       "preRequisites:11": [
         232
@@ -12018,7 +13126,7 @@
         }
       }
     },
-    "176:10": {
+    "196:10": {
       "questID:3": 229,
       "preRequisites:11": [
         231
@@ -12105,7 +13213,7 @@
         }
       }
     },
-    "177:10": {
+    "197:10": {
       "questID:3": 230,
       "preRequisites:11": [
         229
@@ -12192,7 +13300,7 @@
         }
       }
     },
-    "178:10": {
+    "198:10": {
       "questID:3": 231,
       "preRequisites:11": [],
       "properties:10": {
@@ -12271,7 +13379,7 @@
         }
       }
     },
-    "179:10": {
+    "199:10": {
       "questID:3": 232,
       "preRequisites:11": [
         216
@@ -12404,7 +13512,7 @@
         }
       }
     },
-    "180:10": {
+    "200:10": {
       "questID:3": 233,
       "preRequisites:11": [
         232
@@ -12467,7 +13575,7 @@
         }
       }
     },
-    "181:10": {
+    "201:10": {
       "questID:3": 234,
       "preRequisites:11": [
         232
@@ -12530,7 +13638,7 @@
         }
       }
     },
-    "182:10": {
+    "202:10": {
       "questID:3": 235,
       "preRequisites:11": [
         232
@@ -12593,7 +13701,7 @@
         }
       }
     },
-    "183:10": {
+    "203:10": {
       "questID:3": 236,
       "preRequisites:11": [
         232
@@ -12656,7 +13764,7 @@
         }
       }
     },
-    "184:10": {
+    "204:10": {
       "questID:3": 237,
       "preRequisites:11": [
         216
@@ -12719,11 +13827,9 @@
         }
       }
     },
-    "185:10": {
+    "205:10": {
       "questID:3": 238,
-      "preRequisites:11": [
-        15
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12794,7 +13900,7 @@
         }
       }
     },
-    "186:10": {
+    "206:10": {
       "questID:3": 239,
       "preRequisites:11": [
         238
@@ -12863,7 +13969,7 @@
         }
       }
     },
-    "187:10": {
+    "207:10": {
       "questID:3": 240,
       "preRequisites:11": [
         239
@@ -12926,7 +14032,7 @@
         }
       }
     },
-    "188:10": {
+    "208:10": {
       "questID:3": 241,
       "preRequisites:11": [
         239
@@ -12989,7 +14095,7 @@
         }
       }
     },
-    "189:10": {
+    "209:10": {
       "questID:3": 242,
       "preRequisites:11": [
         239
@@ -13052,7 +14158,7 @@
         }
       }
     },
-    "190:10": {
+    "210:10": {
       "questID:3": 243,
       "preRequisites:11": [
         239
@@ -13115,7 +14221,7 @@
         }
       }
     },
-    "191:10": {
+    "211:10": {
       "questID:3": 244,
       "preRequisites:11": [
         239
@@ -13178,7 +14284,7 @@
         }
       }
     },
-    "192:10": {
+    "212:10": {
       "questID:3": 245,
       "preRequisites:11": [
         239
@@ -13241,7 +14347,7 @@
         }
       }
     },
-    "193:10": {
+    "213:10": {
       "questID:3": 246,
       "preRequisites:11": [
         239
@@ -13304,7 +14410,7 @@
         }
       }
     },
-    "194:10": {
+    "214:10": {
       "questID:3": 247,
       "preRequisites:11": [
         239
@@ -13367,7 +14473,7 @@
         }
       }
     },
-    "195:10": {
+    "215:10": {
       "questID:3": 248,
       "preRequisites:11": [
         239
@@ -13436,7 +14542,7 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": -24,
+          "x:3": -15,
           "y:3": 120,
           "id:3": 2
         },
@@ -13478,8 +14584,8 @@
         },
         "7:10": {
           "size:3": 24,
-          "x:3": 210,
-          "y:3": 120,
+          "x:3": 212,
+          "y:3": 119,
           "id:3": 9
         },
         "8:10": {
@@ -13594,7 +14700,7 @@
           "desc:8": "Dragons in a whole new light!"
         }
       },
-      "order:3": 2
+      "order:3": 1
     },
     "1:10": {
       "quests:9": {
@@ -13612,351 +14718,279 @@
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 136,
-          "y:3": 88,
-          "id:3": 133
-        },
-        "3:10": {
-          "size:3": 24,
-          "x:3": 176,
-          "y:3": 88,
-          "id:3": 134
-        },
-        "4:10": {
-          "size:3": 24,
-          "x:3": 176,
-          "y:3": 8,
-          "id:3": 135
-        },
-        "5:10": {
-          "size:3": 24,
-          "x:3": 96,
-          "y:3": 48,
-          "id:3": 136
-        },
-        "6:10": {
-          "size:3": 24,
-          "x:3": 176,
-          "y:3": 48,
-          "id:3": 138
-        },
-        "7:10": {
-          "size:3": 24,
-          "x:3": 176,
-          "y:3": 128,
-          "id:3": 15
-        },
-        "8:10": {
-          "size:3": 24,
-          "x:3": 216,
-          "y:3": 128,
-          "id:3": 16
-        },
-        "9:10": {
-          "size:3": 24,
           "x:3": 16,
           "y:3": 128,
           "id:3": 29
         },
-        "10:10": {
+        "3:10": {
           "size:3": 24,
           "x:3": 176,
           "y:3": 168,
           "id:3": 30
         },
-        "11:10": {
+        "4:10": {
           "size:3": 24,
           "x:3": -40,
           "y:3": 48,
           "id:3": 31
         },
-        "12:10": {
+        "5:10": {
           "size:3": 24,
           "x:3": -64,
           "y:3": 48,
           "id:3": 32
         },
-        "13:10": {
+        "6:10": {
           "size:3": 24,
           "x:3": -24,
           "y:3": 88,
           "id:3": 33
         },
-        "14:10": {
+        "7:10": {
           "size:3": 24,
           "x:3": 16,
           "y:3": 88,
           "id:3": 34
         },
-        "15:10": {
+        "8:10": {
           "size:3": 24,
           "x:3": 16,
           "y:3": 48,
           "id:3": 35
         },
-        "16:10": {
+        "9:10": {
           "size:3": 24,
-          "x:3": -24,
-          "y:3": 208,
+          "x:3": -96,
+          "y:3": 292,
           "id:3": 36
         },
-        "17:10": {
+        "10:10": {
           "size:3": 24,
           "x:3": 136,
           "y:3": 208,
           "id:3": 37
         },
-        "18:10": {
+        "11:10": {
           "size:3": 24,
-          "x:3": -24,
+          "x:3": -96,
           "y:3": 168,
           "id:3": 38
         },
-        "19:10": {
-          "size:3": 24,
-          "x:3": 216,
-          "y:3": 88,
-          "id:3": 166
-        },
-        "20:10": {
+        "12:10": {
           "size:3": 24,
           "x:3": 16,
           "y:3": 168,
           "id:3": 39
         },
-        "21:10": {
-          "size:3": 24,
-          "x:3": 176,
-          "y:3": 88,
-          "id:3": 167
-        },
-        "22:10": {
+        "13:10": {
           "size:3": 24,
           "x:3": 176,
           "y:3": 208,
           "id:3": 40
         },
-        "23:10": {
+        "14:10": {
           "size:3": 24,
           "x:3": 176,
           "y:3": 248,
           "id:3": 41
         },
-        "24:10": {
+        "15:10": {
           "size:3": 24,
           "x:3": 56,
           "y:3": 168,
           "id:3": 42
         },
-        "25:10": {
+        "16:10": {
           "size:3": 24,
           "x:3": 136,
           "y:3": 168,
           "id:3": 43
         },
-        "26:10": {
+        "17:10": {
           "size:3": 24,
-          "x:3": 64,
-          "y:3": 208,
+          "x:3": 16,
+          "y:3": 316,
           "id:3": 44
         },
-        "27:10": {
+        "18:10": {
           "size:3": 24,
-          "x:3": 40,
-          "y:3": 208,
+          "x:3": 16,
+          "y:3": 292,
           "id:3": 45
         },
-        "28:10": {
+        "19:10": {
           "size:3": 24,
           "x:3": 96,
           "y:3": 168,
           "id:3": 46
         },
-        "29:10": {
+        "20:10": {
           "size:3": 24,
           "x:3": 176,
           "y:3": 288,
           "id:3": 47
         },
-        "30:10": {
-          "size:3": 24,
-          "x:3": 216,
-          "y:3": 90,
-          "id:3": 48
-        },
-        "31:10": {
-          "size:3": 24,
-          "x:3": 136,
-          "y:3": 88,
-          "id:3": 49
-        },
-        "32:10": {
-          "size:3": 24,
-          "x:3": 136,
-          "y:3": 8,
-          "id:3": 50
-        },
-        "33:10": {
+        "21:10": {
           "size:3": 24,
           "x:3": -16,
           "y:3": 48,
           "id:3": 51
         },
-        "34:10": {
+        "22:10": {
           "size:3": 24,
           "x:3": -16,
           "y:3": 8,
           "id:3": 52
         },
-        "35:10": {
-          "size:3": 24,
-          "x:3": 112,
-          "y:3": 48,
-          "id:3": 53
-        },
-        "36:10": {
-          "size:3": 24,
-          "x:3": 96,
-          "y:3": 128,
-          "id:3": 54
-        },
-        "37:10": {
-          "size:3": 24,
-          "x:3": 136,
-          "y:3": 8,
-          "id:3": 182
-        },
-        "38:10": {
+        "23:10": {
           "size:3": 24,
           "x:3": -40,
           "y:3": 8,
           "id:3": 55
         },
-        "39:10": {
+        "24:10": {
           "size:3": 24,
           "x:3": 16,
-          "y:3": 208,
+          "y:3": 196,
           "id:3": 56
         },
-        "40:10": {
-          "size:3": 24,
-          "x:3": 136,
-          "y:3": 128,
-          "id:3": 57
-        },
-        "41:10": {
-          "size:3": 24,
-          "x:3": 112,
-          "y:3": 8,
-          "id:3": 58
-        },
-        "42:10": {
+        "25:10": {
           "size:3": 24,
           "x:3": 16,
-          "y:3": 232,
+          "y:3": 220,
           "id:3": 59
         },
-        "43:10": {
-          "size:3": 24,
-          "x:3": 40,
-          "y:3": 232,
-          "id:3": 60
-        },
-        "44:10": {
-          "size:3": 24,
-          "x:3": 64,
-          "y:3": 232,
-          "id:3": 61
-        },
-        "45:10": {
-          "size:3": 24,
-          "x:3": 88,
-          "y:3": 232,
-          "id:3": 62
-        },
-        "46:10": {
+        "26:10": {
           "size:3": 24,
           "x:3": 16,
-          "y:3": 256,
+          "y:3": 268,
+          "id:3": 60
+        },
+        "27:10": {
+          "size:3": 24,
+          "x:3": 16,
+          "y:3": 412,
+          "id:3": 61
+        },
+        "28:10": {
+          "size:3": 24,
+          "x:3": 16,
+          "y:3": 364,
+          "id:3": 62
+        },
+        "29:10": {
+          "size:3": 24,
+          "x:3": 16,
+          "y:3": 244,
           "id:3": 63
         },
-        "47:10": {
+        "30:10": {
           "size:3": 24,
-          "x:3": 88,
-          "y:3": 256,
+          "x:3": 16,
+          "y:3": 388,
           "id:3": 64
         },
-        "48:10": {
+        "31:10": {
           "size:3": 24,
           "x:3": 136,
           "y:3": 248,
           "id:3": 65
         },
-        "49:10": {
-          "size:3": 32,
-          "x:3": 48,
-          "y:3": 272,
+        "32:10": {
+          "size:3": 24,
+          "x:3": 138,
+          "y:3": 288,
           "id:3": 66
         },
-        "50:10": {
+        "33:10": {
           "size:3": 24,
-          "x:3": 88,
-          "y:3": 208,
+          "x:3": 16,
+          "y:3": 340,
           "id:3": 67
         },
-        "51:10": {
-          "size:3": 24,
-          "x:3": 56,
-          "y:3": 128,
-          "id:3": 68
-        },
-        "52:10": {
-          "size:3": 24,
-          "x:3": 136,
-          "y:3": 48,
-          "id:3": 202
-        },
-        "53:10": {
-          "size:3": 24,
-          "x:3": 136,
-          "y:3": 128,
-          "id:3": 214
-        },
-        "54:10": {
-          "size:3": 24,
-          "x:3": 96,
-          "y:3": 8,
-          "id:3": 215
-        },
-        "55:10": {
+        "34:10": {
           "size:3": 24,
           "x:3": 56,
           "y:3": 88,
           "id:3": 118
         },
-        "56:10": {
+        "35:10": {
           "size:3": 24,
           "x:3": 56,
           "y:3": 48,
           "id:3": 119
         },
-        "57:10": {
+        "36:10": {
           "size:3": 24,
           "x:3": 56,
           "y:3": 8,
           "id:3": 120
         },
-        "58:10": {
+        "37:10": {
           "size:3": 24,
           "x:3": 56,
           "y:3": 128,
           "id:3": 121
         },
-        "59:10": {
+        "38:10": {
           "size:3": 24,
           "x:3": 16,
           "y:3": 8,
           "id:3": 122
+        },
+        "39:10": {
+          "size:3": 24,
+          "x:3": 216,
+          "y:3": 48,
+          "id:3": 133
+        },
+        "40:10": {
+          "size:3": 24,
+          "x:3": 112,
+          "y:3": 96,
+          "id:3": 134
+        },
+        "41:10": {
+          "size:3": 24,
+          "x:3": 136,
+          "y:3": 8,
+          "id:3": 135
+        },
+        "42:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 48,
+          "id:3": 136
+        },
+        "43:10": {
+          "size:3": 24,
+          "x:3": 176,
+          "y:3": 48,
+          "id:3": 138
+        },
+        "44:10": {
+          "size:3": 24,
+          "x:3": 96,
+          "y:3": 8,
+          "id:3": 182
+        },
+        "45:10": {
+          "size:3": 24,
+          "x:3": 176,
+          "y:3": 8,
+          "id:3": 202
+        },
+        "46:10": {
+          "size:3": 24,
+          "x:3": 216,
+          "y:3": 8,
+          "id:3": 214
+        },
+        "47:10": {
+          "size:3": 24,
+          "x:3": 136,
+          "y:3": 48,
+          "id:3": 215
         }
       },
       "lineID:3": 1,
@@ -13974,285 +15008,279 @@
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": 102,
-          "y:3": 162,
-          "id:3": 128
+          "x:3": 18,
+          "y:3": 238,
+          "id:3": 69
         },
         "1:10": {
           "size:3": 24,
-          "x:3": -6,
-          "y:3": 150,
-          "id:3": 129
-        },
-        "2:10": {
-          "size:3": 24,
-          "x:3": -30,
-          "y:3": 138,
-          "id:3": 130
-        },
-        "3:10": {
-          "size:3": 24,
-          "x:3": -42,
-          "y:3": 114,
-          "id:3": 131
-        },
-        "4:10": {
-          "size:3": 24,
-          "x:3": -48,
-          "y:3": 90,
-          "id:3": 132
-        },
-        "5:10": {
-          "size:3": 24,
-          "x:3": 18,
-          "y:3": 240,
-          "id:3": 69
-        },
-        "6:10": {
-          "size:3": 24,
-          "x:3": -18,
+          "x:3": -13,
           "y:3": 204,
           "id:3": 70
         },
-        "7:10": {
+        "2:10": {
           "size:3": 24,
-          "x:3": 18,
-          "y:3": 204,
+          "x:3": 19,
+          "y:3": 205,
           "id:3": 71
         },
-        "8:10": {
+        "3:10": {
           "size:3": 24,
           "x:3": 60,
           "y:3": 204,
           "id:3": 72
         },
-        "9:10": {
+        "4:10": {
           "size:3": 24,
           "x:3": 60,
           "y:3": 162,
           "id:3": 73
         },
-        "10:10": {
+        "5:10": {
           "size:3": 24,
           "x:3": 66,
           "y:3": 54,
           "id:3": 74
         },
-        "11:10": {
+        "6:10": {
           "size:3": 24,
           "x:3": 138,
           "y:3": 78,
           "id:3": 75
         },
-        "12:10": {
+        "7:10": {
           "size:3": 30,
           "x:3": 18,
           "y:3": 78,
           "id:3": 76
         },
-        "13:10": {
+        "8:10": {
           "size:3": 24,
           "x:3": 138,
           "y:3": 36,
           "id:3": 77
         },
-        "14:10": {
+        "9:10": {
           "size:3": 24,
           "x:3": 66,
           "y:3": 102,
           "id:3": 78
         },
-        "15:10": {
+        "10:10": {
           "size:3": 24,
           "x:3": 102,
           "y:3": -6,
           "id:3": 79
         },
-        "16:10": {
+        "11:10": {
           "size:3": 24,
           "x:3": 216,
           "y:3": 36,
           "id:3": 80
         },
-        "17:10": {
+        "12:10": {
           "size:3": 24,
           "x:3": 198,
           "y:3": -30,
           "id:3": 81
         },
-        "18:10": {
+        "13:10": {
           "size:3": 24,
           "x:3": 216,
           "y:3": -6,
           "id:3": 82
         },
-        "19:10": {
+        "14:10": {
           "size:3": 24,
           "x:3": 258,
           "y:3": 78,
           "id:3": 85
         },
-        "20:10": {
+        "15:10": {
           "size:3": 24,
           "x:3": 300,
           "y:3": 78,
           "id:3": 86
         },
-        "21:10": {
+        "16:10": {
           "size:3": 24,
           "x:3": 300,
           "y:3": 36,
           "id:3": 87
         },
-        "22:10": {
+        "17:10": {
           "size:3": 24,
           "x:3": 258,
           "y:3": 36,
           "id:3": 88
         },
-        "23:10": {
+        "18:10": {
           "size:3": 24,
           "x:3": 216,
           "y:3": 78,
           "id:3": 89
         },
-        "24:10": {
+        "19:10": {
           "size:3": 24,
           "x:3": 342,
           "y:3": 36,
           "id:3": 90
         },
-        "25:10": {
+        "20:10": {
           "size:3": 24,
           "x:3": 216,
           "y:3": 120,
           "id:3": 91
         },
-        "26:10": {
+        "21:10": {
           "size:3": 24,
           "x:3": 258,
           "y:3": 120,
           "id:3": 92
         },
-        "27:10": {
+        "22:10": {
           "size:3": 24,
           "x:3": 138,
           "y:3": 120,
           "id:3": 93
         },
-        "28:10": {
+        "23:10": {
           "size:3": 24,
           "x:3": 138,
           "y:3": 162,
           "id:3": 94
         },
-        "29:10": {
+        "24:10": {
           "size:3": 24,
           "x:3": 300,
           "y:3": 120,
           "id:3": 95
         },
-        "30:10": {
+        "25:10": {
           "size:3": 24,
           "x:3": 162,
           "y:3": -54,
           "id:3": 96
         },
-        "31:10": {
+        "26:10": {
           "size:3": 24,
           "x:3": 168,
           "y:3": -30,
           "id:3": 97
         },
-        "32:10": {
+        "27:10": {
           "size:3": 24,
           "x:3": 174,
           "y:3": -6,
           "id:3": 98
         },
-        "33:10": {
+        "28:10": {
           "size:3": 24,
           "x:3": -42,
           "y:3": 42,
           "id:3": 100
         },
-        "34:10": {
+        "29:10": {
           "size:3": 24,
           "x:3": -6,
           "y:3": 6,
           "id:3": 101
         },
-        "35:10": {
+        "30:10": {
           "size:3": 24,
           "x:3": -30,
           "y:3": 18,
           "id:3": 102
         },
-        "36:10": {
+        "31:10": {
           "size:3": 24,
           "x:3": -48,
           "y:3": 66,
           "id:3": 103
         },
-        "37:10": {
-          "size:3": 24,
-          "x:3": 342,
-          "y:3": 78,
-          "id:3": 168
-        },
-        "38:10": {
+        "32:10": {
           "size:3": 24,
           "x:3": 174,
           "y:3": 120,
           "id:3": 104
         },
-        "39:10": {
-          "size:3": 24,
-          "x:3": 342,
-          "y:3": 120,
-          "id:3": 169
-        },
-        "40:10": {
-          "size:3": 24,
-          "x:3": 384,
-          "y:3": 120,
-          "id:3": 170
-        },
-        "41:10": {
-          "size:3": 24,
-          "x:3": 384,
-          "y:3": 78,
-          "id:3": 171
-        },
-        "42:10": {
+        "33:10": {
           "size:3": 24,
           "x:3": 108,
           "y:3": -30,
           "id:3": 123
         },
-        "43:10": {
+        "34:10": {
           "size:3": 24,
           "x:3": 114,
           "y:3": -54,
           "id:3": 124
         },
-        "44:10": {
+        "35:10": {
           "size:3": 24,
           "x:3": 120,
           "y:3": -78,
           "id:3": 125
         },
-        "45:10": {
+        "36:10": {
           "size:3": 24,
           "x:3": 150,
           "y:3": -78,
           "id:3": 126
         },
-        "46:10": {
+        "37:10": {
           "size:3": 24,
           "x:3": 102,
           "y:3": 120,
           "id:3": 127
+        },
+        "38:10": {
+          "size:3": 24,
+          "x:3": 102,
+          "y:3": 162,
+          "id:3": 128
+        },
+        "39:10": {
+          "size:3": 24,
+          "x:3": -30,
+          "y:3": 138,
+          "id:3": 130
+        },
+        "40:10": {
+          "size:3": 24,
+          "x:3": -42,
+          "y:3": 114,
+          "id:3": 131
+        },
+        "41:10": {
+          "size:3": 24,
+          "x:3": -48,
+          "y:3": 90,
+          "id:3": 132
+        },
+        "42:10": {
+          "size:3": 24,
+          "x:3": 342,
+          "y:3": 78,
+          "id:3": 168
+        },
+        "43:10": {
+          "size:3": 24,
+          "x:3": 342,
+          "y:3": 120,
+          "id:3": 169
+        },
+        "44:10": {
+          "size:3": 24,
+          "x:3": 384,
+          "y:3": 120,
+          "id:3": 170
+        },
+        "45:10": {
+          "size:3": 24,
+          "x:3": 384,
+          "y:3": 78,
+          "id:3": 171
         }
       },
       "lineID:3": 2,
@@ -14264,261 +15292,311 @@
           "desc:8": "Magic with Flower\u0027s"
         }
       },
-      "order:3": 3
+      "order:3": 6
     },
     "3:10": {
       "quests:9": {
         "0:10": {
           "size:3": 24,
-          "x:3": 126,
-          "y:3": 138,
-          "id:3": 137
+          "x:3": -120,
+          "y:3": 12,
+          "id:3": 83
         },
         "1:10": {
           "size:3": 24,
-          "x:3": 54,
-          "y:3": 102,
-          "id:3": 139
+          "x:3": -78,
+          "y:3": 12,
+          "id:3": 84
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 54,
-          "y:3": 66,
-          "id:3": 140
+          "x:3": -36,
+          "y:3": 12,
+          "id:3": 166
         },
         "3:10": {
           "size:3": 24,
-          "x:3": 126,
-          "y:3": 102,
-          "id:3": 141
+          "x:3": -160,
+          "y:3": 12,
+          "id:3": 167
         },
         "4:10": {
           "size:3": 24,
-          "x:3": 180,
-          "y:3": 210,
-          "id:3": 142
+          "x:3": -36,
+          "y:3": 54,
+          "id:3": 172
         },
         "5:10": {
           "size:3": 24,
-          "x:3": 90,
-          "y:3": 102,
-          "id:3": 143
-        },
-        "6:10": {
-          "size:3": 24,
-          "x:3": 126,
-          "y:3": 66,
-          "id:3": 144
-        },
-        "7:10": {
-          "size:3": 24,
-          "x:3": 126,
-          "y:3": 174,
-          "id:3": 145
-        },
-        "8:10": {
-          "size:3": 24,
-          "x:3": 90,
-          "y:3": 66,
-          "id:3": 146
-        },
-        "9:10": {
-          "size:3": 24,
-          "x:3": 180,
-          "y:3": 246,
-          "id:3": 147
-        },
-        "10:10": {
-          "size:3": 24,
-          "x:3": 180,
-          "y:3": 138,
-          "id:3": 148
-        },
-        "11:10": {
-          "size:3": 24,
-          "x:3": 216,
-          "y:3": 138,
-          "id:3": 149
-        },
-        "12:10": {
-          "size:3": 24,
-          "x:3": 216,
-          "y:3": 246,
-          "id:3": 150
-        },
-        "13:10": {
-          "size:3": 24,
-          "x:3": 180,
-          "y:3": 102,
-          "id:3": 151
-        },
-        "14:10": {
-          "size:3": 24,
-          "x:3": 216,
-          "y:3": 66,
-          "id:3": 152
-        },
-        "15:10": {
-          "size:3": 24,
-          "x:3": 180,
-          "y:3": 66,
-          "id:3": 153
-        },
-        "16:10": {
-          "size:3": 24,
-          "x:3": 252,
-          "y:3": 102,
-          "id:3": 154
-        },
-        "17:10": {
-          "size:3": 24,
-          "x:3": 252,
-          "y:3": 138,
-          "id:3": 155
-        },
-        "18:10": {
-          "size:3": 24,
-          "x:3": 252,
-          "y:3": 174,
-          "id:3": 156
-        },
-        "19:10": {
-          "size:3": 24,
-          "x:3": 252,
-          "y:3": 210,
-          "id:3": 157
-        },
-        "20:10": {
-          "size:3": 24,
-          "x:3": 288,
-          "y:3": 138,
-          "id:3": 158
-        },
-        "21:10": {
-          "size:3": 24,
-          "x:3": 324,
-          "y:3": 174,
-          "id:3": 159
-        },
-        "22:10": {
-          "size:3": 24,
-          "x:3": 324,
-          "y:3": 210,
-          "id:3": 160
-        },
-        "23:10": {
-          "size:3": 24,
-          "x:3": 288,
-          "y:3": 210,
-          "id:3": 161
-        },
-        "24:10": {
-          "size:3": 24,
-          "x:3": 324,
-          "y:3": 138,
-          "id:3": 162
-        },
-        "25:10": {
+          "x:3": -36,
+          "y:3": 96,
+          "id:3": 173
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Nether Wart",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "§rIt\u0027s time brew potions and oh no you can\u0027t grow §cNether Wart§r! What will you do now?\n\nFret not.\n\nMake some buckets.\nEnter the nether.\nFind the Arctic Abyss biome.\nCollect the Ichor, btw this stuff is finite.\nNow go get some Nether Wart\nAnd get some soul sand\nAnd kill some Wither Skeletons for their bones, you will need 2!\nGet 2 gold ingots.\nMake a hoe using the 2 ingots and the 2 wither bones.\nGo to where you want your §cNether Wart§r farm to be.\nDig a small hole and place the Ichor in it.\nPut soul sand around it.\nTill the sand with your bone hoe you just made.\nPlant the §cNether Wart§r.\n§bProfit§a§a§e!!!§r"
+        }
+      },
+      "order:3": 5
+    },
+    "4:10": {
+      "quests:9": {
+        "0:10": {
           "size:3": 24,
           "x:3": -18,
-          "y:3": 174,
+          "y:3": 173,
           "id:3": 99
         },
-        "26:10": {
-          "size:3": 24,
-          "x:3": 324,
-          "y:3": 102,
-          "id:3": 163
-        },
-        "27:10": {
-          "size:3": 24,
-          "x:3": 288,
-          "y:3": 66,
-          "id:3": 164
-        },
-        "28:10": {
-          "size:3": 36,
-          "x:3": 360,
-          "y:3": 204,
-          "id:3": 165
-        },
-        "29:10": {
+        "1:10": {
           "size:3": 24,
           "x:3": 18,
           "y:3": 174,
           "id:3": 105
         },
-        "30:10": {
+        "2:10": {
           "size:3": 24,
           "x:3": 216,
           "y:3": 102,
           "id:3": 106
         },
-        "31:10": {
+        "3:10": {
           "size:3": 24,
           "x:3": 18,
           "y:3": 210,
           "id:3": 107
         },
-        "32:10": {
+        "4:10": {
           "size:3": 24,
           "x:3": -18,
           "y:3": 138,
           "id:3": 108
         },
-        "33:10": {
+        "5:10": {
           "size:3": 24,
           "x:3": 126,
           "y:3": 210,
           "id:3": 109
         },
-        "34:10": {
+        "6:10": {
           "size:3": 24,
           "x:3": 54,
           "y:3": 174,
           "id:3": 110
         },
-        "35:10": {
+        "7:10": {
           "size:3": 24,
           "x:3": 90,
           "y:3": 138,
           "id:3": 111
         },
-        "36:10": {
+        "8:10": {
           "size:3": 24,
           "x:3": 90,
           "y:3": 174,
           "id:3": 112
         },
-        "37:10": {
+        "9:10": {
           "size:3": 24,
           "x:3": 126,
           "y:3": 246,
           "id:3": 113
         },
-        "38:10": {
+        "10:10": {
           "size:3": 24,
           "x:3": 54,
           "y:3": 138,
           "id:3": 114
         },
-        "39:10": {
+        "11:10": {
           "size:3": 24,
           "x:3": 18,
           "y:3": 138,
           "id:3": 115
         },
-        "40:10": {
+        "12:10": {
           "size:3": 24,
           "x:3": 162,
           "y:3": 174,
           "id:3": 116
         },
-        "41:10": {
+        "13:10": {
           "size:3": 24,
           "x:3": 198,
           "y:3": 174,
           "id:3": 117
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": 126,
+          "y:3": 138,
+          "id:3": 137
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 54,
+          "y:3": 102,
+          "id:3": 139
+        },
+        "16:10": {
+          "size:3": 24,
+          "x:3": 54,
+          "y:3": 66,
+          "id:3": 140
+        },
+        "17:10": {
+          "size:3": 24,
+          "x:3": 126,
+          "y:3": 102,
+          "id:3": 141
+        },
+        "18:10": {
+          "size:3": 24,
+          "x:3": 180,
+          "y:3": 210,
+          "id:3": 142
+        },
+        "19:10": {
+          "size:3": 24,
+          "x:3": 90,
+          "y:3": 102,
+          "id:3": 143
+        },
+        "20:10": {
+          "size:3": 24,
+          "x:3": 126,
+          "y:3": 66,
+          "id:3": 144
+        },
+        "21:10": {
+          "size:3": 24,
+          "x:3": 126,
+          "y:3": 174,
+          "id:3": 145
+        },
+        "22:10": {
+          "size:3": 24,
+          "x:3": 90,
+          "y:3": 66,
+          "id:3": 146
+        },
+        "23:10": {
+          "size:3": 24,
+          "x:3": 180,
+          "y:3": 246,
+          "id:3": 147
+        },
+        "24:10": {
+          "size:3": 24,
+          "x:3": 180,
+          "y:3": 138,
+          "id:3": 148
+        },
+        "25:10": {
+          "size:3": 24,
+          "x:3": 216,
+          "y:3": 138,
+          "id:3": 149
+        },
+        "26:10": {
+          "size:3": 24,
+          "x:3": 216,
+          "y:3": 246,
+          "id:3": 150
+        },
+        "27:10": {
+          "size:3": 24,
+          "x:3": 180,
+          "y:3": 102,
+          "id:3": 151
+        },
+        "28:10": {
+          "size:3": 24,
+          "x:3": 216,
+          "y:3": 66,
+          "id:3": 152
+        },
+        "29:10": {
+          "size:3": 24,
+          "x:3": 180,
+          "y:3": 66,
+          "id:3": 153
+        },
+        "30:10": {
+          "size:3": 24,
+          "x:3": 252,
+          "y:3": 102,
+          "id:3": 154
+        },
+        "31:10": {
+          "size:3": 24,
+          "x:3": 252,
+          "y:3": 138,
+          "id:3": 155
+        },
+        "32:10": {
+          "size:3": 24,
+          "x:3": 252,
+          "y:3": 174,
+          "id:3": 156
+        },
+        "33:10": {
+          "size:3": 24,
+          "x:3": 252,
+          "y:3": 210,
+          "id:3": 157
+        },
+        "34:10": {
+          "size:3": 24,
+          "x:3": 288,
+          "y:3": 138,
+          "id:3": 158
+        },
+        "35:10": {
+          "size:3": 24,
+          "x:3": 324,
+          "y:3": 174,
+          "id:3": 159
+        },
+        "36:10": {
+          "size:3": 24,
+          "x:3": 324,
+          "y:3": 210,
+          "id:3": 160
+        },
+        "37:10": {
+          "size:3": 24,
+          "x:3": 288,
+          "y:3": 210,
+          "id:3": 161
+        },
+        "38:10": {
+          "size:3": 24,
+          "x:3": 324,
+          "y:3": 138,
+          "id:3": 162
+        },
+        "39:10": {
+          "size:3": 24,
+          "x:3": 324,
+          "y:3": 102,
+          "id:3": 163
+        },
+        "40:10": {
+          "size:3": 24,
+          "x:3": 288,
+          "y:3": 66,
+          "id:3": 164
+        },
+        "41:10": {
+          "size:3": 36,
+          "x:3": 360,
+          "y:3": 204,
+          "id:3": 165
         }
       },
       "lineID:3": 4,
@@ -14530,129 +15608,129 @@
           "desc:8": "Fun Tech mod"
         }
       },
-      "order:3": 1
+      "order:3": 2
     },
-    "4:10": {
+    "5:10": {
       "quests:9": {
         "0:10": {
-          "size:3": 24,
-          "x:3": 210,
-          "y:3": 138,
-          "id:3": 224
-        },
-        "1:10": {
-          "size:3": 24,
-          "x:3": 210,
-          "y:3": 114,
-          "id:3": 225
-        },
-        "2:10": {
-          "size:3": 24,
-          "x:3": 210,
-          "y:3": 90,
-          "id:3": 226
-        },
-        "3:10": {
-          "size:3": 24,
-          "x:3": 30,
-          "y:3": 108,
-          "id:3": 229
-        },
-        "4:10": {
-          "size:3": 24,
-          "x:3": -12,
-          "y:3": 108,
-          "id:3": 230
-        },
-        "5:10": {
-          "size:3": 24,
-          "x:3": 30,
-          "y:3": 150,
-          "id:3": 231
-        },
-        "6:10": {
-          "size:3": 24,
-          "x:3": 114,
-          "y:3": 108,
-          "id:3": 232
-        },
-        "7:10": {
-          "size:3": 24,
-          "x:3": 162,
-          "y:3": 66,
-          "id:3": 233
-        },
-        "8:10": {
-          "size:3": 24,
-          "x:3": 186,
-          "y:3": 66,
-          "id:3": 234
-        },
-        "9:10": {
-          "size:3": 24,
-          "x:3": 138,
-          "y:3": 66,
-          "id:3": 235
-        },
-        "10:10": {
-          "size:3": 24,
-          "x:3": 114,
-          "y:3": 66,
-          "id:3": 236
-        },
-        "11:10": {
-          "size:3": 24,
-          "x:3": 72,
-          "y:3": 66,
-          "id:3": 237
-        },
-        "12:10": {
           "size:3": 24,
           "x:3": 72,
           "y:3": 108,
           "id:3": 216
         },
-        "13:10": {
+        "1:10": {
           "size:3": 24,
           "x:3": 30,
           "y:3": 66,
           "id:3": 217
         },
-        "14:10": {
+        "2:10": {
           "size:3": 24,
           "x:3": 66,
           "y:3": 162,
           "id:3": 218
         },
-        "15:10": {
+        "3:10": {
           "size:3": 24,
           "x:3": 90,
           "y:3": 162,
           "id:3": 219
         },
-        "16:10": {
+        "4:10": {
           "size:3": 24,
           "x:3": 114,
           "y:3": 162,
           "id:3": 220
         },
-        "17:10": {
+        "5:10": {
           "size:3": 24,
           "x:3": 138,
           "y:3": 162,
           "id:3": 221
         },
-        "18:10": {
+        "6:10": {
           "size:3": 24,
           "x:3": 162,
           "y:3": 162,
           "id:3": 222
         },
-        "19:10": {
+        "7:10": {
           "size:3": 24,
           "x:3": 186,
           "y:3": 162,
           "id:3": 223
+        },
+        "8:10": {
+          "size:3": 24,
+          "x:3": 210,
+          "y:3": 138,
+          "id:3": 224
+        },
+        "9:10": {
+          "size:3": 24,
+          "x:3": 210,
+          "y:3": 114,
+          "id:3": 225
+        },
+        "10:10": {
+          "size:3": 24,
+          "x:3": 210,
+          "y:3": 90,
+          "id:3": 226
+        },
+        "11:10": {
+          "size:3": 24,
+          "x:3": 30,
+          "y:3": 108,
+          "id:3": 229
+        },
+        "12:10": {
+          "size:3": 24,
+          "x:3": -12,
+          "y:3": 108,
+          "id:3": 230
+        },
+        "13:10": {
+          "size:3": 24,
+          "x:3": 29,
+          "y:3": 162,
+          "id:3": 231
+        },
+        "14:10": {
+          "size:3": 24,
+          "x:3": 114,
+          "y:3": 108,
+          "id:3": 232
+        },
+        "15:10": {
+          "size:3": 24,
+          "x:3": 162,
+          "y:3": 66,
+          "id:3": 233
+        },
+        "16:10": {
+          "size:3": 24,
+          "x:3": 186,
+          "y:3": 66,
+          "id:3": 234
+        },
+        "17:10": {
+          "size:3": 24,
+          "x:3": 138,
+          "y:3": 66,
+          "id:3": 235
+        },
+        "18:10": {
+          "size:3": 24,
+          "x:3": 114,
+          "y:3": 66,
+          "id:3": 236
+        },
+        "19:10": {
+          "size:3": 24,
+          "x:3": 72,
+          "y:3": 66,
+          "id:3": 237
         }
       },
       "lineID:3": 5,
@@ -14664,9 +15742,9 @@
           "desc:8": "Easy powerful Tools"
         }
       },
-      "order:3": 4
+      "order:3": 3
     },
-    "5:10": {
+    "6:10": {
       "quests:9": {
         "0:10": {
           "size:3": 24,
@@ -14682,71 +15760,53 @@
         },
         "2:10": {
           "size:3": 24,
-          "x:3": 66,
-          "y:3": 144,
-          "id:3": 15
-        },
-        "3:10": {
-          "size:3": 24,
           "x:3": 150,
           "y:3": 72,
           "id:3": 240
         },
-        "4:10": {
-          "size:3": 24,
-          "x:3": 24,
-          "y:3": 120,
-          "id:3": 16
-        },
-        "5:10": {
-          "size:3": 24,
-          "x:3": 24,
-          "y:3": 168,
-          "id:3": 48
-        },
-        "6:10": {
+        "3:10": {
           "size:3": 24,
           "x:3": 180,
           "y:3": 78,
           "id:3": 241
         },
-        "7:10": {
+        "4:10": {
           "size:3": 24,
           "x:3": 150,
           "y:3": 216,
           "id:3": 242
         },
-        "8:10": {
+        "5:10": {
           "size:3": 24,
           "x:3": 180,
           "y:3": 210,
           "id:3": 243
         },
-        "9:10": {
+        "6:10": {
           "size:3": 24,
           "x:3": 120,
           "y:3": 210,
           "id:3": 244
         },
-        "10:10": {
+        "7:10": {
           "size:3": 24,
           "x:3": 222,
           "y:3": 144,
           "id:3": 245
         },
-        "11:10": {
+        "8:10": {
           "size:3": 24,
           "x:3": 120,
           "y:3": 78,
           "id:3": 246
         },
-        "12:10": {
+        "9:10": {
           "size:3": 24,
           "x:3": 216,
           "y:3": 174,
           "id:3": 247
         },
-        "13:10": {
+        "10:10": {
           "size:3": 24,
           "x:3": 216,
           "y:3": 114,
@@ -14762,18 +15822,126 @@
           "desc:8": "Npc\u0027s Working for you"
         }
       },
-      "order:3": 5
+      "order:3": 4
+    },
+    "7:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -228,
+          "y:3": 12,
+          "id:3": 49
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": -168,
+          "y:3": 12,
+          "id:3": 50
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -228,
+          "y:3": 54,
+          "id:3": 57
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": -228,
+          "y:3": 96,
+          "id:3": 58
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -228,
+          "y:3": 138,
+          "id:3": 68
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -168,
+          "y:3": 54,
+          "id:3": 174
+        },
+        "6:10": {
+          "size:3": 24,
+          "x:3": -168,
+          "y:3": 96,
+          "id:3": 175
+        }
+      },
+      "lineID:3": 7,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "More Storage Space",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "There are numerious ways to improve storage."
+        }
+      },
+      "order:3": 7
+    },
+    "8:10": {
+      "quests:9": {
+        "0:10": {
+          "size:3": 24,
+          "x:3": -216,
+          "y:3": 12,
+          "id:3": 176
+        },
+        "1:10": {
+          "size:3": 24,
+          "x:3": -180,
+          "y:3": 12,
+          "id:3": 177
+        },
+        "2:10": {
+          "size:3": 24,
+          "x:3": -144,
+          "y:3": 12,
+          "id:3": 178
+        },
+        "3:10": {
+          "size:3": 24,
+          "x:3": -216,
+          "y:3": 54,
+          "id:3": 179
+        },
+        "4:10": {
+          "size:3": 24,
+          "x:3": -180,
+          "y:3": 54,
+          "id:3": 180
+        },
+        "5:10": {
+          "size:3": 24,
+          "x:3": -144,
+          "y:3": 54,
+          "id:3": 181
+        }
+      },
+      "lineID:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "name:8": "Lever Button Lights",
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Levers that are lights and lights that are buttons! We\u0027re going to craft one!"
+        }
+      },
+      "order:3": 8
     }
   },
   "questSettings:10": {
     "betterquesting:10": {
       "livesdef:3": 3,
+      "pack_name:8": "World of Dragons FPE (Fat Pig Edition)",
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
       "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "pack_version:3": 1110107,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }

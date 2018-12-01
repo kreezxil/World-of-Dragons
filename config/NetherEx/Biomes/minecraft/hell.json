@@ -167,6 +167,190 @@
       "minGroupCount": 1,
       "maxGroupCount": 2,
       "spawn": true
+    },
+    {
+      "entity": "statues:fake_zombie",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "statues:fake_creeper",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "statues:fake_slime",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "statues:fake_enderman",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "statues:fake_witch",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "animania:hamster",
+      "creatureType": "creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "statues:statue_bat",
+      "creatureType": "ambient",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "statues:fake_magmacube",
+      "creatureType": "monster",
+      "weight": 0,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "statues:fake_enderman",
+      "creatureType": "monster",
+      "weight": 0,
+      "minGroupCount": 4,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:succubus",
+      "creatureType": "monster",
+      "weight": 16,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:wither_cow",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "grimoireofgaia:baphomet",
+      "creatureType": "monster",
+      "weight": 8,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "animania:hamster",
+      "creatureType": "creature",
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "statues:statue_bat",
+      "creatureType": "ambient",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "gravestone-extended:gswitherskullcrawler",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "gravestone-extended:gswitheredbat",
+      "creatureType": "monster",
+      "weight": 40,
+      "minGroupCount": 1,
+      "maxGroupCount": 3,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:firebat",
+      "creatureType": "monster",
+      "weight": 10,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "thaumcraft:wisp",
+      "creatureType": "monster",
+      "weight": 5,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "statues:statue_bat",
+      "creatureType": "ambient",
+      "weight": 4,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
     }
   ],
   "features": [
@@ -182,10 +366,10 @@
       "hidden": false,
       "genAttempts": 8,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:scatter",
@@ -199,10 +383,10 @@
       "placement": "on_ground",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:cluster",
@@ -216,10 +400,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 4,
-      "maxHeight": 124,
       "randomizeGenAttempts": true,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 4,
+      "maxGenHeight": 124
     },
     {
       "feature": "lex:cluster",
@@ -233,10 +417,10 @@
       "direction": "down",
       "genAttempts": 10,
       "genProbability": 1.0,
-      "minHeight": 1,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 1,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:scatter",
@@ -250,10 +434,10 @@
       "placement": "on_ground",
       "genAttempts": 1,
       "genProbability": 0.25,
-      "minHeight": 1,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 1,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:scatter",
@@ -267,10 +451,10 @@
       "placement": "on_ground",
       "genAttempts": 1,
       "genProbability": 0.25,
-      "minHeight": 1,
-      "maxHeight": 128,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 1,
+      "maxGenHeight": 128
     },
     {
       "feature": "lex:ore",
@@ -284,10 +468,10 @@
       "veinSize": 14,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:ore",
@@ -301,10 +485,10 @@
       "veinSize": 3,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 108,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 108
     },
     {
       "feature": "lex:ore",
@@ -318,10 +502,10 @@
       "veinSize": 32,
       "genAttempts": 4,
       "genProbability": 1.0,
-      "minHeight": 28,
-      "maxHeight": 38,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 28,
+      "maxGenHeight": 38
     },
     {
       "feature": "lex:fluid",
@@ -335,10 +519,10 @@
       "hidden": true,
       "genAttempts": 16,
       "genProbability": 1.0,
-      "minHeight": 10,
-      "maxHeight": 118,
       "randomizeGenAttempts": false,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 10,
+      "maxGenHeight": 118
     },
     {
       "feature": "lex:structure",
@@ -348,8 +532,6 @@
       "genAttempts": 1,
       "genProbability": 1.0,
       "randomizeGenAttempts": false,
-      "minHeight": 32,
-      "maxHeight": 116,
       "mirror": "random",
       "rotation": "random",
       "ignoredBlock": {
@@ -357,7 +539,9 @@
         "properties": {}
       },
       "clearancePercentage": 0.75,
-      "generate": true
+      "generate": true,
+      "minGenHeight": 32,
+      "maxGenHeight": 116
     }
   ]
 }

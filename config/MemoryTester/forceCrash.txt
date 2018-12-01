@@ -1,2 +1,5 @@
-Info=World of Dragons Lite is designed for Potato PCs you might want to play it instead.
-RedirectLink=https://minecraft.curseforge.com/projects/world-of-dragons-potato
+InfoHeader=The game was force crashed because of an insufficient memory allocation.
+InfoLine1=Your current memory allocation is [AllocatedMemory]MB.
+InfoLine2=Please allocate [RecommendedMemory]MB before running.
+InfoFooter=You can't play this pack without the [RecommededMemory]MB, I have liter version called World of Dragons Lite, try that one instead.
+RedirectLink=http://www.kreezcraft.com/miscellaneous/upgrade-your-potato/

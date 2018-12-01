@@ -35,37 +35,11 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Compatibility: End Crystal" required="false">
-    <crafting>
-      <grid>
-        <item name="blockGlassColorless"/><item name="blockGlassColorless"/><item name="blockGlassColorless"/>
-        <item name="blockGlassColorless"/><item name="pearlEnderEye"/><item name="blockGlassColorless"/>
-        <item name="blockGlassColorless"/><item name="itemGhastTear"/><item name="blockGlassColorless"/>
-      </grid>
-      <output name="minecraft:end_crystal"/>
-    </crafting>
-  </recipe>
+  <recipe name="Compatibility: End Crystal" disabled="true" />
 
-  <recipe name="Compatibility: Beacon" required="false">
-    <crafting>
-      <grid>
-        <item name="blockGlassColorless"/><item name="blockGlassColorless"/><item name="blockGlassColorless"/>
-        <item name="blockGlassColorless"/><item name="netherStar"/><item name="blockGlassColorless"/>
-        <item name="oredict:obsidian"/><item name="oredict:obsidian"/><item name="oredict:obsidian"/>
-      </grid>
-      <output name="minecraft:beacon"/>
-    </crafting>
-  </recipe>
+  <recipe name="Compatibility: Beacon" disabled="true" />
 
-  <recipe name="Compatibility: Bottle" required="false">
-    <crafting>
-      <grid size="3x2">
-        <item name="blockGlassColorless"/><item /><item name="blockGlassColorless"/>
-        <item /><item name="blockGlassColorless"/><item />
-      </grid>
-      <output name="minecraft:glass_bottle" amount="3"/>
-    </crafting>
-  </recipe>
+  <recipe name="Compatibility: Bottle" disabled="true" />
 
   <recipe name="Compatibility: Glass Pane" required="false">
     <crafting>
@@ -77,16 +51,7 @@ XML editor will display that as tooltips when editing this file.
     </crafting>
   </recipe>
 
-  <recipe name="Compatibility: Daylight Sensor" required="false">
-    <crafting>
-      <grid>
-        <item name="blockGlassColorless"/><item name="blockGlassColorless"/><item name="blockGlassColorless"/>
-        <item name="gemQuartz"/><item name="gemQuartz"/><item name="gemQuartz"/>
-        <item name="slabWood"/><item name="slabWood"/><item name="slabWood"/>
-      </grid>
-      <output name="minecraft:daylight_detector"/>
-    </crafting>
-  </recipe>
+  <recipe name="Compatibility: Daylight Sensor" disabled="true" />
 
   <recipe name="Binder Composite" required="true">
     <crafting>
@@ -172,14 +137,11 @@ XML editor will display that as tooltips when editing this file.
   </recipe>
 
   <recipe name="Ender Pearl Nuggets" required="true">
-    <crafting>
-      <shapeless>
-        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
-        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
-        <item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/><item name="nuggetEnderpearl"/>
-      </shapeless>
+    <alloying energy="2000">
+      <input name="nuggetEnderpearl" amount="9"/>
       <output name="oredict:enderpearl"/>
-    </crafting>
+    </alloying>
+    <!-- Note: The same inputs as a 'crafting' gives dustEnderPearl, see sagmill.xml -->
   </recipe>
 
   <recipe name="Dark Iron Bars" required="true">
@@ -205,9 +167,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Simple Chassis" required="true">
     <crafting>
       <grid>
-        <item name="barsIron"/><item name="ingotIron"/><item name="barsIron"/>
-        <item name="ingotIron"/><item name="POWDER_INFINITY"/><item name="ingotIron"/>
-        <item name="barsIron"/><item name="ingotIron"/><item name="barsIron"/>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
+        <item name="IRON"/><item name="POWDER_INFINITY"/><item name="IRON"/>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
       </grid>
       <output name="SIMPLE_CHASSIS"/>
     </crafting>
@@ -241,7 +203,7 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid>
         <item name="enderio:block_end_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_end_iron_bars"/>
-        <item name="ingotEndSteel"/><item name="CHASSIS"/><item name="ingotEndSteel"/>
+        <item name="ingotEndSteel"/><item name="POWDER_INFINITY"/><item name="ingotEndSteel"/>
         <item name="enderio:block_end_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_end_iron_bars"/>
       </grid>
       <output name="END_STEEL_CHASSIS"/>
@@ -284,9 +246,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Soul Machine Dye">
     <crafting>
       <grid>
-        <item name="dustLapis"/><item name="POWDER_QUARTZ"/><item name="ORGANIC_BROWN_DYE"/>
+        <item name="dustSoularium"/><item name="POWDER_QUARTZ"/><item name="ORGANIC_BROWN_DYE"/>
         <item name="POWDER_QUARTZ"/><item name="ORGANIC_BLACK_DYE"/><item name="POWDER_QUARTZ"/>
-        <item name="ORGANIC_BROWN_DYE"/><item name="POWDER_QUARTZ"/><item name="dustLapis"/>
+        <item name="ORGANIC_BROWN_DYE"/><item name="POWDER_QUARTZ"/><item name="dustSoularium"/>
       </grid>
       <output name="dyeSoulMachine" amount="6"/>
     </crafting>
@@ -368,9 +330,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Gear, Iron" required="true">
     <crafting>
       <grid>
-        <item name="nuggetIron"/><item name="ingotIron"/><item name="nuggetIron"/>
-        <item name="ingotIron"/><item name="POWDER_INFINITY"/><item name="ingotIron"/>
-        <item name="nuggetIron"/><item name="ingotIron"/><item name="nuggetIron"/>
+        <item name="nuggetIron"/><item name="IRON"/><item name="nuggetIron"/>
+        <item name="IRON"/><item name="POWDER_INFINITY"/><item name="IRON"/>
+        <item name="nuggetIron"/><item name="IRON"/><item name="nuggetIron"/>
       </grid>
       <output name="GEAR_IRON"/>
     </crafting>
@@ -421,7 +383,26 @@ XML editor will display that as tooltips when editing this file.
       <output name="GEAR_VIBRANT"/>
     </casting>
   </recipe>
+  
+  <recipe name="Gear, Dark" required="true">
+    <crafting>
+      <grid>
+        <item name="DARK_STEEL_NUGGET"/><item name="DARK_STEEL_NUGGET"/><item name="DARK_STEEL_NUGGET"/>
+        <item name="DARK_STEEL_NUGGET"/><item name="GEAR_IRON"/><item name="DARK_STEEL_NUGGET"/>
+        <item name="DARK_STEEL_NUGGET"/><item name="DARK_STEEL_NUGGET"/><item name="DARK_STEEL_NUGGET"/>
+      </grid>
+      <output name="GEAR_DARKSTEEL"/>
+    </crafting>
+  </recipe>
 
+  <recipe name="Gear, Dark, Casting">
+    <casting>
+      <input name="DARK_STEEL_NUGGET" amount="8"/>
+      <cast name="GEAR_IRON" consumed="true"/>
+      <output name="GEAR_DARKSTEEL"/>
+    </casting>
+  </recipe>
+  
   <alias name="CAPACITOR_METAL" item="ingotCopper">
     <dependency item="ingotCopper" reverse="false"/>
   </alias>
@@ -436,7 +417,7 @@ XML editor will display that as tooltips when editing this file.
         <item name="nuggetGold"/><item name="CAPACITOR_METAL"/><item name="nuggetGold"/>
         <item name="POWDER_INFINITY"/><item name="nuggetGold"/><item />
       </grid>
-      <output name="CAPACITOR1"/>
+      <output name="enderio:item_basic_capacitor:0"/>
     </crafting>
   </recipe>
 
@@ -444,10 +425,10 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid>
         <item /><item name="ENERGETIC_ALLOY"/><item />
-        <item name="CAPACITOR1"/><item name="dustCoal"/><item name="CAPACITOR1"/>
+        <item name="enderio:item_basic_capacitor:0"/><item name="dustCoal"/><item name="enderio:item_basic_capacitor:0"/>
         <item /><item name="ENERGETIC_ALLOY"/><item />
       </grid>
-      <output name="CAPACITOR2"/>
+      <output name="enderio:item_basic_capacitor:1"/>
     </crafting>
   </recipe>
 
@@ -455,10 +436,10 @@ XML editor will display that as tooltips when editing this file.
     <crafting>
       <grid>
         <item /><item name="VIBRANT_ALLOY"/><item />
-        <item name="CAPACITOR2"/><item name="oredict:glowstone"/><item name="CAPACITOR2"/>
+        <item name="enderio:item_basic_capacitor:1"/><item name="oredict:glowstone"/><item name="enderio:item_basic_capacitor:1"/>
         <item /><item name="VIBRANT_ALLOY"/><item />
       </grid>
-      <output name="CAPACITOR3"/>
+      <output name="enderio:item_basic_capacitor:2"/>
     </crafting>
   </recipe>
 
@@ -497,6 +478,15 @@ XML editor will display that as tooltips when editing this file.
       <input name="minecraft:wool"/>
       <input name="INSULATION_METAL"/>
       <output name="INDUSTRIAL_INSULATION"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Alloy: Nethercotta" required="true">
+    <alloying energy="20000" exp="1">
+      <input name="ingotBrickNether"/>
+      <input name="cropNetherWart" amount="4" />
+      <input name="oredict:itemClay" amount="6" />
+      <output name="ingotBrickNetherGlazed"/>
     </alloying>
   </recipe>
 
@@ -598,9 +588,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Chassis Parts" required="true">
     <crafting>
       <grid size="3x3">
-        <item name="ingotIron"/><item name="ingotIron"/><item name="ingotIron"/>
-        <item name="ingotIron"/><item name="CHASSIS"/><item name="ingotIron"/>
-        <item name="ingotIron"/><item name="ingotIron"/><item name="ingotIron"/>
+        <item name="IRON"/><item name="IRON"/><item name="IRON"/>
+        <item name="IRON"/><item name="CHASSIS"/><item name="IRON"/>
+        <item name="IRON"/><item name="IRON"/><item name="IRON"/>
       </grid>
       <output name="CHASSIPARTS" amount="16"/>
     </crafting>
@@ -609,9 +599,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Simple Chassis Parts" required="true">
     <crafting>
       <grid size="3x3">
-        <item name="ingotIron"/><item name="ingotIron"/><item name="ingotIron"/>
-        <item name="ingotIron"/><item name="SIMPLE_CHASSIS"/><item name="ingotIron"/>
-        <item name="ingotIron"/><item name="ingotIron"/><item name="ingotIron"/>
+        <item name="IRON"/><item name="IRON"/><item name="IRON"/>
+        <item name="IRON"/><item name="SIMPLE_CHASSIS"/><item name="IRON"/>
+        <item name="IRON"/><item name="IRON"/><item name="IRON"/>
       </grid>
       <output name="SIMPLE_CHASSIPARTS" amount="16"/>
     </crafting>
@@ -620,9 +610,9 @@ XML editor will display that as tooltips when editing this file.
   <recipe name="Enhanced Chassis Parts" required="true">
     <crafting>
       <grid size="3x3">
-        <item name="ingotIron"/><item name="ingotIron"/><item name="ingotIron"/>
-        <item name="ingotIron"/><item name="ENHANCED_CHASSIS"/><item name="ingotIron"/>
-        <item name="ingotIron"/><item name="ingotIron"/><item name="ingotIron"/>
+        <item name="IRON"/><item name="IRON"/><item name="IRON"/>
+        <item name="IRON"/><item name="ENHANCED_CHASSIS"/><item name="IRON"/>
+        <item name="IRON"/><item name="IRON"/><item name="IRON"/>
       </grid>
       <output name="ENHANCED_CHASSIPARTS" amount="16"/>
     </crafting>
@@ -1161,6 +1151,22 @@ XML editor will display that as tooltips when editing this file.
       </grid>
       <output name="itemInfinityRod"/>
     </crafting>
+  </recipe>
+
+  <recipe name="Infinity Goop">
+    <alloying energy="5000">
+      <input name="POWDER_INFINITY"/>
+      <input name="dustCoal"/>
+      <output name="INFINITY_GOOP"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Infinity Goop, Charcoal">
+    <alloying energy="5000">
+      <input name="POWDER_INFINITY"/>
+      <input name="dustCharcoal"/>
+      <output name="INFINITY_GOOP"/>
+    </alloying>
   </recipe>
 
 </enderio:recipes>
