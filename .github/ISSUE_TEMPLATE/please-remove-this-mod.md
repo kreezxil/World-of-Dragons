@@ -16,7 +16,6 @@ The data collected from this form and others like it will be used to create a cu
 -->
 # Mod Nominated for Removal
 Mod Name:
-Mod Link:
 
 # Reason for Nomination
 <!-- Please explain as best you can your reason for why the mod you named should be removed. -->
