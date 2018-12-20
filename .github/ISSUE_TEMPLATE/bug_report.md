@@ -1,7 +1,7 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
+about: Create a report to help us improve the pack
+title: "[please fix] five word description explaining it"
 labels: ''
 assignees: ''
 
