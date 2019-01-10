@@ -24,7 +24,9 @@ Steps to reproduce the behavior:
 <!-- (please complete the following information) -->
  - Minecraft:
  - Forge:
- - Mod:
+ - Mod Pack <!-- Version -->:
+ - Mod Name:
+ - Mod Version:
 
 **Additional context**
 <!-- Add any other context about the problem here. -->
