@@ -1,0 +1,209 @@
+{
+  "discord": {
+    "token": "Mzc0NjcxOTI2NTI4MDQ5MTUz.DNkr9A.wFCdMF_NFtAPprbkggpcQj9ceuo",
+    "ignoresBots": true,
+    "allowLinking": true,
+    "ignoresUsers": [],
+    "channels": {
+      "generic": {
+        "commandPrefix": "&",
+        "canExecuteCommands": true,
+        "stripMinecraftCodes": true,
+        "allowDMCommands": false,
+        "relayChat": true,
+        "messages": {
+          "chatMessage": "[{USER}] {MESSAGE}"
+        },
+        "commands": [
+          {
+            "name": "stop",
+            "command": "stop",
+            "enabled": true,
+            "aliases": [
+              "close"
+            ],
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+          {
+            "name": "tps",
+            "command": "discord tps",
+            "enabled": true
+          },
+          {
+            "name": "uptime",
+            "command": "discord uptime",
+            "enabled": true
+          },
+          {
+            "name": "online",
+            "command": "discord online",
+            "enabled": true
+          },
+          {
+            "name": "list",
+            "command": "list",
+            "enabled": true
+          },
+          {
+            "name": "kick",
+            "command": "kick {ARG_1}",
+            "enabled": true,
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+          {
+            "name": "ban",
+            "command": "ban {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+          {
+            "name": "op",
+            "command": "op {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+          {
+            "name": "give",
+            "command": "give {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+          {
+            "name": "gamerule",
+            "command": "gamerule {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+          {
+            "name": "gamemode",
+            "command": "gamemode {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+          {
+            "name": "deop",
+            "command": "deop {ARGS}",
+            "enabled": true,
+            "permissions": [
+              "role:388101927986266113",
+            ]
+          },
+		  {
+		  "name":"time",
+		  "command":"time {ARGS}",
+		  "enabled": true,
+		  "permissions": [
+		     "role:388101927986266113",
+			 ]
+		  },
+		  {
+		  "name":"tp",
+		  "command":"tp {ARGS}",
+		  "enabled": true,
+		  "permissions": [
+		     "role:388101927986266113",
+			 ]
+		  },
+		  {
+		  "name":"weather",
+		  "command":"weather {ARGS}",
+		  "enabled": true,
+		  "permissions": [
+		     "role:388101927986266113",
+			 ]
+		  },
+          {
+            "name": "discord",
+            "command": "discord {ARGS}",
+            "enabled": true,
+            "permissions": [
+			  "role:363039108207083532"
+            ]
+          }
+        ]
+      },
+      "channels": {
+	"527877042264473604": {}
+      }
+    }
+  },
+  "minecraft": {
+    "dimensions": {
+      "generic": {
+        "ignoreFakePlayerChat": true,
+        "relaySayCommand": true,
+        "relayMeCommand": true,
+        "canMentionEveryone": false,
+        "canMentionHere": false,
+        "messageIgnoreRegex": [],
+        "relayServerStart": true,
+        "relayServerStop": true,
+        "relayServerCrash": true,
+        "chatPrefix": "",
+        "canMentionUsers": true,
+        "canMentionRoles": true,
+        "discordChannel": [
+		527877042264473604
+        ],
+        "relayAchievements": false,
+        "relayChat": true,
+        "relayCommands": false,
+        "relayPlayerJoin": true,
+        "relayPlayerLeave": true,
+        "relayPlayerDeath": true,
+        "messages": {
+          "chatMessage": {
+            "normal": "**[{USER}]** {MESSAGE}",
+            "webhook": "{MESSAGE}"
+          },
+          "command": {
+            "normal": "**[{USER}]** executed **{COMMAND} {ARGUMENTS}**",
+            "webhook": "*executed **{COMMAND} {ARGUMENTS}***"
+          },
+          "playerJoin": {
+            "normal": "**{USER}** just joined the server!",
+            "webhook": "*Joined the server!*"
+          },
+          "playerLeave": {
+            "normal": "**{USER}** just left the server!",
+            "webhook": "*Left the server!*"
+          },
+          "playerDeath": {
+            "normal": "**{USER}** just died due to {REASON}!",
+            "webhook": "*{REASON}*"
+          },
+          "achievement": {
+            "normal": "**{USER}** just gained the achievement **{ACHIEVEMENT}**!\n*{DESCRIPTION}*",
+            "webhook": "*Gained the achievement **{ACHIEVEMENT}**!\n{DESCRIPTION}*"
+          },
+          "serverStart": "Server started!",
+          "serverStop": "Server stopped!",
+          "serverCrash": "Server crash detected!"
+        }
+      },
+      "dimensions": {}
+    },
+    "integrations": {
+      "dynmapEnabled": false
+    }
+  },
+  "imc": {
+    "enabled": true,
+    "mode": "whitelist",
+    "list": []
+  }
+}

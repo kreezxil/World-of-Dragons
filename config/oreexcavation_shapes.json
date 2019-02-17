@@ -35,6 +35,30 @@
         "XXXXX",
         "XXXXX"
       ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
+    },
+    {
+      "name": "New Shape",
+      "depth": -1,
+      "reticle": 12,
+      "mask": [
+        "OOOOO",
+        "OXXXO",
+        "OXXXO",
+        "OXXXO",
+        "OOOOO"
+      ]
     }
   ]
 }

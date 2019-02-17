@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:1.0
+gamma:0.9929578
 saturation:0.0
 renderDistance:12
 guiScale:2
@@ -11,13 +11,13 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:true
 ao:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:192.99.14.63:25865
+lastServer:142.54.189.106:25765
 lang:en_us
 chatVisibility:0
 chatColors:true
