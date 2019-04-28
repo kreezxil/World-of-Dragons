@@ -28,5 +28,13 @@ Steps to reproduce the behavior:
  - Mod Name:
  - Mod Version:
 
+**Logs**
+<!-- I need your full and complete logs when posting crash reports -->
+Find out how to get me what I need at [What is a Crash Report](https://github.com/kreezxil/World-of-Dragons/wiki/Crash-Reports)
+
+Crash Report: 
+Debug Log:
+Latest Log:
+
 **Additional context**
 <!-- Add any other context about the problem here. -->
