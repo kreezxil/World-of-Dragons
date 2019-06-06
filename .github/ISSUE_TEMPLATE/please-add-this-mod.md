@@ -17,7 +17,7 @@ The data collected from this form and others like it will be used to create a cu
 -->
 
 # Mod Nominated for Adding*
-Mod Name:
+Mod Name: <!-- only needed here if the title doesn't match -->
 Mod Link:
 
 # Reason for Nomination
